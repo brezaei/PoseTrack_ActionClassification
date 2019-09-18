@@ -2,7 +2,7 @@
 
 This repository contains the code for the action classification corresponding to the following paper:
 
-Rezaei, B., Christakis, Y., Ho, B., Thomas, K., Erb, K., Ostadabbas, S., Patel, S. (2019). Target-Specific Action Classification for Automated Phenotyping of Human Motor Behavior from Video. under submission for a special issue on “Sensors, Signal and Image Processing in Biomedicine and Assisted Living” of Sensors journal.
+Rezaei, B., Christakis, Y., Ho, B., Thomas, K., Erb, K., Ostadabbas, S., Patel, S. (2019). Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video. under submission for a special issue on “Sensors, Signal and Image Processing in Biomedicine and Assisted Living” of Sensors journal.
 
 This work was done during Behnaz internship at Pfizer.
 
@@ -19,13 +19,13 @@ contact:
 *  [License](#license)
 *  [Acknowledgements](#acknowledgements)
 
-## Requirements 
-The classification network is coded in python 2.7 and used caffe2 framework. 
-For installing caffe2 you can use the following instruction, remember to set the USELMDB=ON while building the caffe2 from source. 
+## Requirements
+The classification network is coded in python 2.7 and used caffe2 framework.
+For installing caffe2 you can use the following instruction, remember to set the USELMDB=ON while building the caffe2 from source.
 
 https://caffe2.ai/docs/getting-started.html?platform=mac&configuration=prebuilt
 
-Since we are using this database in order to save the pose evolution representations.
+Since we are using LMDB database in order to save the pose evolution representations. If you wish to use different data structure, you have to modify the input handling operation based on your desired data structure.
 
 ## Running the code
 The code contains two parts:
@@ -46,12 +46,12 @@ ${ROOT}/ActionClassification/tools/PoseBased_ActionRec_Test.ipynb
 ```
 
 ## Input
-Input of the action classification is either pose heatmaps or keypoints of the target human whose action is to be classified in a video clip. 
+Input of the action classification is either pose heatmaps or keypoints of the target human whose action is to be classified in a video clip.
 
 
 the length of the input video clips can be the same or varied.
-#### Hint: 
-For the input of the action classification you can use the putput of any pose estimation network on your raw video with slight changes in the global parameters of the code which are explained in the relative snippet. For example we used the pretrined network provided in the following repository in order to get the pose results.
+#### Hint:
+For the input of the action classification you can use the input of any pose estimation network on your raw video with slight changes in the global parameters of the code which are explained in the relative snippet. For example we used the pretrined network provided in the following repository in order to get the pose results.
 https://github.com/facebookresearch/DetectAndTrack
 
 ## Citation
@@ -66,5 +66,3 @@ This code is offered as-is without any warranty either expressed or implied.
 
 [2] V. Choutas, P. Weinzaepfel, J. Revaud, and C. Schmid. Potion:Pose motion representation for action recognition. In CVPR
 2018, 2018
-
-

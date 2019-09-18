@@ -1,1 +1,0 @@
- clip address, true class, predicted class 
