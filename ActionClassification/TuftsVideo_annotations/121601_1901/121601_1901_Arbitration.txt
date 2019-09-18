@@ -1,0 +1,29 @@
+Posture, Gait, and Transitions		0.0	83.483	83.483	Sitting
+Posture, Gait, and Transitions		83.483	83.516	0.033	PGT N/A, Visibility
+Posture, Gait, and Transitions		83.516	101.568	18.052	Sitting
+Posture, Gait, and Transitions		101.568	101.801	0.233	PGT N/A, Visibility
+Posture, Gait, and Transitions		101.801	158.892	57.091	Sitting
+Posture, Gait, and Transitions		158.892	158.958	0.066	PGT N/A, Visibility
+Posture, Gait, and Transitions		158.958	178.778	19.82	Sitting
+Posture, Gait, and Transitions		178.778	182.415	3.637	Sit-to-Stand
+Posture, Gait, and Transitions		182.415	281.614	99.199	Standing, Two Feet
+Posture, Gait, and Transitions		281.614	284.284	2.67	Stand-to-Sit
+Posture, Gait, and Transitions		284.284	2788.485	2504.201	Sitting
+Posture, Gait, and Transitions		2788.485	2788.552	0.067	PGT N/A, Visibility
+Posture, Gait, and Transitions		2788.552	2875.138	86.586	Sitting
+Posture, Gait, and Transitions		2875.138	2875.505	0.367	PGT N/A, Visibility
+Posture, Gait, and Transitions		2875.505	3000.197	124.692	Sitting
+Turns		188.188	189.022	0.834	R <90º
+Turns		254.387	255.388	1.001	L <90º
+Twists		187.487	188.188	0.701	Twist R, Not Seated, <45º
+Twists		207.907	208.908	1.001	Twist L, Not Seated, <45º
+Twists		209.475	210.51	1.035	Twist R, Not Seated, <45º
+Twists		2773.337	2775.172	1.835	Twist L, Seated, <45º
+Twists		2775.439	2776.64	1.201	Twist R, Seated, <45º
+Obstruction		83.483	83.516	0.033	Person
+Obstruction		101.568	101.801	0.233	Person
+Obstruction		158.892	158.958	0.066	Person
+Obstruction		2788.485	2788.552	0.067	Person
+Obstruction		2875.138	2875.505	0.367	Person
+Assess Timeline		0.0	3000.197	3000.197	Extra Recorded Video
+Device Comments		91.424	187.487	96.063	Putting on the rest of the sensors

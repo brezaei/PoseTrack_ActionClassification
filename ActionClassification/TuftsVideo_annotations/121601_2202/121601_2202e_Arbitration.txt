@@ -1,0 +1,54 @@
+Posture, Gait, and Transitions		0.0	217.133	217.133	Standing, Two Feet
+Posture, Gait, and Transitions		217.133	217.7	0.567	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		217.7	219.433	1.733	Standing, Two Feet
+Posture, Gait, and Transitions		219.433	221.3	1.867	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		221.3	225.2	3.9	Assisted Stand, Two Feet
+Posture, Gait, and Transitions		225.2	231.566	6.366	Standing, Two Feet
+Posture, Gait, and Transitions		231.566	234.3	2.734	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		234.3	234.666	0.366	Assisted Stand, Two Feet
+Posture, Gait, and Transitions		234.666	235.2	0.534	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		235.2	238.133	2.933	Assisted Stand, Two Feet
+Posture, Gait, and Transitions		238.133	238.5	0.367	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		238.5	240.633	2.133	Assisted Stand, Two Feet
+Posture, Gait, and Transitions		240.633	248.5	7.867	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		248.5	248.733	0.233	Standing, Two Feet
+Posture, Gait, and Transitions		248.733	271.366	22.633	PGT N/A, Visibility
+Posture, Gait, and Transitions		271.366	271.9	0.534	Standing, Two Feet
+Posture, Gait, and Transitions		271.9	273.8	1.9	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		273.8	275.6	1.8	Standing, Two Feet
+Posture, Gait, and Transitions		275.6	305.033	29.433	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		305.033	323.833	18.8	Standing, Two Feet
+Posture, Gait, and Transitions		323.833	325.066	1.233	Walking, Impaired Gait PS, 1-3 Steps
+Turns		216.833	218.3	1.467	R <90º
+Turns		219.4	220.566	1.166	L <90º
+Turns		229.6	230.166	0.566	R <90º
+Turns		231.366	233.033	1.667	R 90<180º
+Turns		233.966	234.3	0.334	L <90º
+Turns		237.2	237.9	0.7	L <90º
+Turns		240.6	242.9	2.3	L 90<180º
+Turns		244.833	247.366	2.533	L 90<180º
+Turns		275.633	276.566	0.933	L <90º
+Turns		279.133	280.166	1.033	R <90º
+Turns		289.033	291.1	2.067	L 90<180º
+Turns		303.233	308.066	4.833	L 90<180º
+Turns		323.566	325.066	1.5	L <90º
+Twists		90.633	91.066	0.433	Twist L, Not Seated, <45º
+Twists		115.166	115.633	0.467	Twist R, Not Seated, <45º
+Twists		115.866	116.433	0.567	Twist L, Not Seated, <45º
+Twists		116.833	117.366	0.533	Twist R, Not Seated, <45º
+Twists		117.533	117.833	0.3	Twist L, Not Seated, <45º
+Twists		126.333	127.8	1.467	Twist R, Not Seated, <45º
+Twists		129.3	130.833	1.533	Twist L, Not Seated, <45º
+Twists		149.8	150.566	0.766	Twist R, Not Seated, <45º
+Twists		152.733	153.266	0.533	Twist R, Not Seated, <45º
+Twists		153.733	154.966	1.233	Twist L, Not Seated, <45º
+Twists		209.133	209.5	0.367	Twist R, Not Seated, <45º
+Twists		215.6	216.433	0.833	Twist R, Not Seated, <45º
+Twists		219.2	219.4	0.2	Twist L, Not Seated, <45º
+Twists		230.433	231.066	0.633	Twist L, Not Seated, <45º
+Twists		234.3	234.966	0.666	Twist L, Not Seated, <45º
+Twists		235.866	236.1	0.234	Twist R, Not Seated, <45º
+Twists		238.766	239.633	0.867	Twist R, Not Seated, <45º
+Twists		240.166	240.6	0.434	Twist L, Not Seated, <45º
+Twists		278.466	278.866	0.4	Twist L, Not Seated, <45º
+Assess Timeline		0.0	325.066	325.066	Extra Recorded Video

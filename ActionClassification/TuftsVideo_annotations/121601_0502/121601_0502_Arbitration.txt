@@ -1,0 +1,317 @@
+Posture, Gait, and Transitions		0.0	684.533	684.533	Sitting
+Posture, Gait, and Transitions		684.533	684.966	0.433	PGT N/A, Visibility
+Posture, Gait, and Transitions		684.966	697.466	12.5	Sitting
+Posture, Gait, and Transitions		697.466	698.166	0.7	PGT N/A, Visibility
+Posture, Gait, and Transitions		698.166	868.066	169.9	Sitting
+Posture, Gait, and Transitions		868.066	869.8	1.734	Sit-to-Stand
+Posture, Gait, and Transitions		869.8	870.0	0.2	Standing, Two Feet
+Posture, Gait, and Transitions		870.0	871.633	1.633	Stand-to-Sit
+Posture, Gait, and Transitions		871.633	872.866	1.233	Sitting
+Posture, Gait, and Transitions		872.866	874.833	1.967	Sit-to-Stand
+Posture, Gait, and Transitions		874.833	875.466	0.633	Standing, Two Feet
+Posture, Gait, and Transitions		875.466	877.233	1.767	Stand-to-Sit
+Posture, Gait, and Transitions		877.233	881.733	4.5	Sitting
+Posture, Gait, and Transitions		881.733	883.833	2.1	Sit-to-Stand
+Posture, Gait, and Transitions		883.833	884.233	0.4	Standing, Two Feet
+Posture, Gait, and Transitions		884.233	886.066	1.833	Stand-to-Sit
+Posture, Gait, and Transitions		886.066	888.266	2.2	Sitting
+Posture, Gait, and Transitions		888.266	890.3	2.034	Sit-to-Stand
+Posture, Gait, and Transitions		890.3	890.4	0.1	Standing, Two Feet
+Posture, Gait, and Transitions		890.4	892.433	2.033	Stand-to-Sit
+Posture, Gait, and Transitions		892.433	912.866	20.433	Sitting
+Posture, Gait, and Transitions		912.866	914.766	1.9	Sit-to-Stand
+Posture, Gait, and Transitions		914.766	915.0	0.234	Standing, Two Feet
+Posture, Gait, and Transitions		915.0	916.1	1.1	Stand-to-Sit
+Posture, Gait, and Transitions		916.1	916.533	0.433	Sitting
+Posture, Gait, and Transitions		916.533	918.166	1.633	Sit-to-Stand
+Posture, Gait, and Transitions		918.166	918.266	0.1	Standing, Two Feet
+Posture, Gait, and Transitions		918.266	919.466	1.2	Stand-to-Sit
+Posture, Gait, and Transitions		919.466	919.933	0.467	Sitting
+Posture, Gait, and Transitions		919.933	921.666	1.733	Sit-to-Stand
+Posture, Gait, and Transitions		921.666	921.733	0.067	Standing, Two Feet
+Posture, Gait, and Transitions		921.733	922.933	1.2	Stand-to-Sit
+Posture, Gait, and Transitions		922.933	923.433	0.5	Sitting
+Posture, Gait, and Transitions		923.433	925.066	1.633	Sit-to-Stand
+Posture, Gait, and Transitions		925.066	925.133	0.067	Standing, Two Feet
+Posture, Gait, and Transitions		925.133	926.566	1.433	Stand-to-Sit
+Posture, Gait, and Transitions		926.566	927.033	0.467	Sitting
+Posture, Gait, and Transitions		927.033	929.1	2.067	Sit-to-Stand
+Posture, Gait, and Transitions		929.1	930.433	1.333	Standing, Two Feet
+Posture, Gait, and Transitions		930.433	932.2	1.767	Stand-to-Sit
+Posture, Gait, and Transitions		932.2	937.666	5.466	Sitting
+Posture, Gait, and Transitions		937.666	940.033	2.367	Sit-to-Stand
+Posture, Gait, and Transitions		940.033	1031.066	91.033	Standing, Two Feet
+Posture, Gait, and Transitions		1031.066	1032.533	1.467	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		1032.533	1038.0	5.467	Standing, Two Feet
+Posture, Gait, and Transitions		1038.0	1043.2	5.2	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1043.2	1044.333	1.133	Standing, Two Feet
+Posture, Gait, and Transitions		1044.333	1045.4	1.067	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1045.4	1046.6	1.2	Standing, Two Feet
+Posture, Gait, and Transitions		1046.6	1047.733	1.133	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1047.733	1051.6	3.867	Standing, Two Feet
+Posture, Gait, and Transitions		1051.6	1051.733	0.133	PGT N/A, Visibility
+Posture, Gait, and Transitions		1051.733	1054.266	2.533	Standing, Two Feet
+Posture, Gait, and Transitions		1054.266	1054.4	0.134	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1054.4	1067.8	13.4	PGT N/A, Visibility
+Posture, Gait, and Transitions		1067.8	1068.3	0.5	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		1068.3	1071.866	3.566	PGT N/A, Visibility
+Posture, Gait, and Transitions		1071.866	1075.2	3.334	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1075.2	1078.433	3.233	Standing, Two Feet
+Posture, Gait, and Transitions		1078.433	1079.833	1.4	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		1079.833	1080.366	0.533	Standing, Two Feet
+Posture, Gait, and Transitions		1080.366	1082.033	1.667	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1082.033	1085.666	3.633	Standing, Two Feet
+Posture, Gait, and Transitions		1085.666	1089.2	3.534	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1089.2	1089.8	0.6	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1089.8	1093.266	3.466	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1093.266	1094.0	0.734	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1094.0	1097.4	3.4	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1097.4	1098.233	0.833	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1098.233	1101.433	3.2	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1101.433	1102.833	1.4	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1102.833	1107.066	4.233	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1107.066	1107.4	0.334	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1107.4	1112.666	5.266	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1112.666	1113.733	1.067	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1113.733	1119.366	5.633	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1119.366	1121.3	1.934	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1121.3	1128.8	7.5	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1128.8	1132.533	3.733	PGT N/A, Visibility
+Posture, Gait, and Transitions		1132.533	1136.3	3.767	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1136.3	1148.4	12.1	Standing, Two Feet
+Posture, Gait, and Transitions		1148.4	1158.266	9.866	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1158.266	1159.066	0.8	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1159.066	1168.7	9.634	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1168.7	1169.566	0.866	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1169.566	1177.966	8.4	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1177.966	1178.966	1.0	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1178.966	1188.033	9.067	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1188.033	1188.6	0.567	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1188.6	1198.4	9.8	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1198.4	1199.066	0.666	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1199.066	1207.766	8.7	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1207.766	1208.633	0.867	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1208.633	1229.433	20.8	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1229.433	1230.066	0.633	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1230.066	1250.133	20.067	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1250.133	1251.2	1.067	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1251.2	1260.766	9.566	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1260.766	1262.1	1.334	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1262.1	1271.966	9.866	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1271.966	1276.033	4.067	Standing, Two Feet
+Posture, Gait, and Transitions		1276.033	1276.433	0.4	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1276.433	1283.166	6.733	Standing, Two Feet
+Posture, Gait, and Transitions		1283.166	1284.733	1.567	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		1284.733	1319.566	34.833	Standing, Two Feet
+Posture, Gait, and Transitions		1319.566	1320.533	0.967	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1320.533	1328.7	8.167	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		1328.7	1345.6	16.9	PGT N/A, Visibility
+Posture, Gait, and Transitions		1345.6	1345.8	0.2	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1345.8	1958.333	612.533	Sitting
+Posture, Gait, and Transitions		1958.333	1961.233	2.9	Sit-to-Stand
+Posture, Gait, and Transitions		1961.233	1965.166	3.933	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1965.166	1980.366	15.2	PGT N/A, Visibility
+Posture, Gait, and Transitions		1980.366	1991.5	11.134	Standing, Two Feet
+Posture, Gait, and Transitions		1991.5	1993.333	1.833	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		1993.333	1994.066	0.733	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1994.066	1994.666	0.6	Standing, Two Feet
+Posture, Gait, and Transitions		1994.666	1995.833	1.167	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		1995.833	1999.8	3.967	Standing, Two Feet
+Posture, Gait, and Transitions		1999.8	2001.633	1.833	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2001.633	2002.0	0.367	Standing, Two Feet
+Posture, Gait, and Transitions		2002.0	2003.433	1.433	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2003.433	2004.533	1.1	Standing, Two Feet
+Posture, Gait, and Transitions		2004.533	2005.966	1.433	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2005.966	2006.5	0.534	Standing, Two Feet
+Posture, Gait, and Transitions		2006.5	2006.8	0.3	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2006.8	2007.366	0.566	Standing, Two Feet
+Posture, Gait, and Transitions		2007.366	2009.633	2.267	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2009.633	2015.9	6.267	Standing, Two Feet
+Posture, Gait, and Transitions		2015.9	2016.233	0.333	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2016.233	2017.433	1.2	Standing, Two Feet
+Posture, Gait, and Transitions		2017.433	2019.5	2.067	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2019.5	2019.566	0.066	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2019.566	2020.666	1.1	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2020.666	2021.1	0.434	Standing, Two Feet
+Posture, Gait, and Transitions		2021.1	2022.433	1.333	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2022.433	2023.933	1.5	Standing, Two Feet
+Posture, Gait, and Transitions		2023.933	2024.033	0.1	PGT N/A, Visibility
+Posture, Gait, and Transitions		2024.033	2130.133	106.1	Standing, Two Feet
+Posture, Gait, and Transitions		2130.133	2132.066	1.933	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2132.066	2133.233	1.167	Standing, Two Feet
+Posture, Gait, and Transitions		2133.233	2134.833	1.6	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2134.833	2151.033	16.2	Standing, Two Feet
+Posture, Gait, and Transitions		2151.033	2151.433	0.4	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2151.433	2160.733	9.3	Standing, Two Feet
+Posture, Gait, and Transitions		2160.733	2162.3	1.567	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2162.3	2164.7	2.4	Standing, Two Feet
+Posture, Gait, and Transitions		2164.7	2166.266	1.566	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2166.266	2293.2	126.934	Standing, Two Feet
+Posture, Gait, and Transitions		2293.2	2299.166	5.966	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2299.166	2308.666	9.5	Standing, Two Feet
+Posture, Gait, and Transitions		2308.666	2309.066	0.4	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2309.066	2364.5	55.434	Standing, Two Feet
+Posture, Gait, and Transitions		2364.5	2365.0	0.5	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2365.0	2401.633	36.633	Standing, Two Feet
+Posture, Gait, and Transitions		2401.633	2401.733	0.1	PGT N/A, Visibility
+Posture, Gait, and Transitions		2401.733	2406.9	5.167	Standing, Two Feet
+Posture, Gait, and Transitions		2406.9	2410.833	3.933	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2410.833	2411.266	0.433	Standing, Two Feet
+Posture, Gait, and Transitions		2411.266	2412.5	1.234	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		2412.5	2420.966	8.466	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2420.966	2423.266	2.3	Standing, Two Feet
+Posture, Gait, and Transitions		2423.266	2423.833	0.567	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2423.833	2424.233	0.4	PGT N/A, Visibility
+Posture, Gait, and Transitions		2424.233	2424.9	0.667	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2424.9	2426.466	1.566	Standing, Two Feet
+Posture, Gait, and Transitions		2426.466	2439.833	13.367	PGT N/A, Visibility
+Posture, Gait, and Transitions		2439.833	2451.1	11.267	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		2451.1	2451.933	0.833	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2451.933	2461.6	9.667	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		2461.6	2462.733	1.133	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2462.733	2465.133	2.4	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		2465.133	2469.766	4.633	Standing, Two Feet
+Posture, Gait, and Transitions		2469.766	2473.933	4.167	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		2473.933	2480.866	6.933	Standing, Two Feet
+Posture, Gait, and Transitions		2480.866	2484.566	3.7	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		2484.566	2493.833	9.267	Standing, Two Feet
+Posture, Gait, and Transitions		2493.833	2504.6	10.767	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		2504.6	2505.266	0.666	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2505.266	2514.533	9.267	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		2514.533	2609.9	95.367	Standing, Two Feet
+Posture, Gait, and Transitions		2609.9	2611.266	1.366	Walking, Impaired Gait PS, 1-3 Steps
+Posture, Gait, and Transitions		2611.266	2614.566	3.3	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2614.566	2614.8	0.234	Standing, Two Feet
+Posture, Gait, and Transitions		2614.8	2620.166	5.366	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		2620.166	2620.5	0.334	Standing, Two Feet
+Posture, Gait, and Transitions		2620.5	2622.133	1.633	PGT N/A, Ambiguous
+Posture, Gait, and Transitions		2622.133	2625.1	2.967	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		2625.1	2646.266	21.166	PGT N/A, Visibility
+Cued Behaviors		664.833	669.933	5.1	Rigidity, Neck
+Cued Behaviors		670.4	677.9	7.5	Rigidity, RUE
+Cued Behaviors		678.333	682.966	4.633	Rigidity, RLE
+Cued Behaviors		685.833	691.533	5.7	Rigidity, LUE
+Cued Behaviors		692.166	696.5	4.334	Rigidity, LLE
+Cued Behaviors		724.2	726.4	2.2	Finger Tapping, RH
+Cued Behaviors		729.566	732.566	3.0	Finger Tapping, LH
+Cued Behaviors		743.6	747.2	3.6	Fist Open/Close, RH
+Cued Behaviors		749.533	754.466	4.933	Fist Open/Close, LH
+Cued Behaviors		781.266	784.566	3.3	Pro/Sup, RH
+Cued Behaviors		790.933	795.266	4.333	Pro/Sup, LH
+Cued Behaviors		805.666	811.566	5.9	Toe Tapping, RF
+Cued Behaviors		813.2	817.1	3.9	Toe Tapping, LF
+Cued Behaviors		827.966	831.6	3.634	Stomping, RF
+Cued Behaviors		833.066	836.233	3.167	Stomping, LF
+Cued Behaviors		881.733	883.833	2.1	Arising from Chair
+Cued Behaviors		888.266	890.3	2.034	Arising from Chair
+Cued Behaviors		912.866	914.766	1.9	Arising from Chair
+Cued Behaviors		916.533	918.166	1.633	Arising from Chair
+Cued Behaviors		919.933	921.666	1.733	Arising from Chair
+Cued Behaviors		923.433	925.066	1.633	Arising from Chair
+Cued Behaviors		927.033	929.1	2.067	Arising from Chair
+Cued Behaviors		1148.4	1167.266	18.866	Gait
+Cued Behaviors		1281.8	1284.733	2.933	Postural Stability
+Cued Behaviors		1317.033	1318.666	1.633	Postural Stability
+Cued Behaviors		1358.2	1358.933	0.733	Postural Tremor, RH
+Cued Behaviors		1360.0	1369.133	9.133	Postural Tremor, RH
+Cued Behaviors		1371.433	1374.033	2.6	Postural Tremor, RH
+Cued Behaviors		1413.766	1418.6	4.834	Kinetic Tremor, RH
+Cued Behaviors		1421.066	1424.166	3.1	Kinetic Tremor, LH
+Cued Behaviors		1436.433	1479.6	43.167	Rest Tremor
+Turns		1038.033	1042.6	4.567	R 180-360º
+Turns		1044.366	1045.433	1.067	R <90º
+Turns		1046.466	1048.6	2.134	L <90º
+Turns		1088.466	1090.433	1.967	L 90<180º
+Turns		1092.4	1094.266	1.866	R 90<180º
+Turns		1096.6	1098.866	2.266	L 90<180º
+Turns		1100.833	1103.466	2.633	L 90<180º
+Turns		1106.333	1108.6	2.267	L 90<180º
+Turns		1111.633	1114.433	2.8	L 90<180º
+Turns		1119.033	1120.2	1.167	R <90º
+Turns		1121.533	1123.566	2.033	R <90º
+Turns		1157.9	1159.466	1.566	L 90<180º
+Turns		1167.266	1169.433	2.167	R 90<180º
+Turns		1177.133	1179.5	2.367	L 90<180º
+Turns		1187.2	1189.2	2.0	L 90<180º
+Turns		1197.466	1199.6	2.134	R 90<180º
+Turns		1207.366	1209.233	1.867	L 90<180º
+Turns		1217.733	1219.9	2.167	L 90<180º
+Turns		1227.9	1230.566	2.666	L 90<180º
+Turns		1239.333	1241.633	2.3	L 90<180º
+Turns		1249.8	1251.966	2.166	L 90<180º
+Turns		1259.933	1262.566	2.633	R 90<180º
+Turns		1271.366	1272.1	0.734	L <90º
+Turns		1275.466	1276.9	1.434	L <90º
+Turns		1319.233	1321.866	2.633	L <90º
+Turns		1322.5	1323.5	1.0	L <90º
+Turns		1325.0	1326.666	1.666	R <90º
+Turns		1962.066	1963.033	0.967	L <90º
+Turns		1992.4	1995.833	3.433	L 90<180º
+Turns		2002.1	2003.466	1.366	R <90º
+Turns		2017.5	2018.833	1.333	R <90º
+Turns		2019.533	2022.5	2.967	L 90<180º
+Turns		2129.866	2131.433	1.567	L <90º
+Turns		2133.233	2134.866	1.633	R <90º
+Turns		2151.066	2151.666	0.6	L <90º
+Turns		2160.8	2161.733	0.933	L <90º
+Turns		2164.4	2166.833	2.433	R <90º
+Turns		2284.033	2284.6	0.567	L <90º
+Turns		2307.5	2310.4	2.9	R <90º
+Turns		2318.1	2319.8	1.7	R <90º
+Turns		2406.666	2408.7	2.034	R 90<180º
+Turns		2409.733	2412.3	2.567	L 90<180º
+Turns		2414.133	2418.166	4.033	R <90º
+Turns		2418.7	2421.533	2.833	R 90<180º
+Turns		2423.3	2424.133	0.833	L <90º
+Turns		2441.933	2443.266	1.333	R <90º
+Turns		2450.566	2452.4	1.834	L 90<180º
+Turns		2461.433	2463.066	1.633	R 90<180º
+Turns		2464.533	2465.7	1.167	L <90º
+Turns		2469.733	2473.933	4.2	L 180-360º
+Turns		2481.233	2482.6	1.367	L <90º
+Turns		2484.0	2484.933	0.933	R <90º
+Turns		2493.9	2494.933	1.033	R <90º
+Turns		2503.566	2505.9	2.334	L 90<180º
+Turns		2514.0	2515.833	1.833	R <90º
+Turns		2610.3	2611.666	1.366	R <90º
+Turns		2614.8	2619.433	4.633	R <90º
+Twists		1120.9	1121.533	0.633	Twist R, Not Seated, <45º
+Twists		2025.233	2026.0	0.767	Twist Left, Not Seated, >45º
+Twists		2027.833	2028.666	0.833	Twist R, Not Seated, <45º
+Twists		2124.6	2125.4	0.8	Twist R, Not Seated, <45º
+Twists		2126.966	2127.466	0.5	Twist L, Not Seated, <45º
+Twists		2129.333	2130.133	0.8	Twist L, Not Seated, <45º
+Twists		2151.666	2152.1	0.434	Twist L, Not Seated, <45º
+Twists		2153.9	2154.666	0.766	Twist R, Not Seated, <45º
+Twists		2155.0	2155.933	0.933	Twist L, Not Seated, <45º
+Twists		2284.6	2286.933	2.333	Twist L, Not Seated, <45º
+Twists		2304.733	2306.266	1.533	Twist L, Not Seated, <45º
+Twists		2307.2	2308.133	0.933	Twist R, Not Seated, <45º
+Twists		2474.7	2475.233	0.533	Twist L, Not Seated, <45º
+Twists		2476.1	2476.833	0.733	Twist R, Seated, <45º
+Twists		2490.033	2491.033	1.0	Twist L, Not Seated, <45º
+Obstruction		22.3	23.133	0.833	Person
+Obstruction		25.9	31.233	5.333	Person
+Obstruction		655.1	659.266	4.166	Person
+Obstruction		660.966	662.033	1.067	Person
+Obstruction		663.066	699.2	36.134	Person
+Obstruction		1050.433	1052.133	1.7	Person
+Obstruction		1478.066	1480.3	2.234	Person
+Obstruction		1531.233	1532.266	1.033	Person
+Obstruction		1535.733	1962.366	426.633	Object
+Obstruction		2018.633	2020.133	1.5	Person
+Obstruction		2023.466	2024.266	0.8	Person
+Obstruction		2140.1	2143.1	3.0	Person
+Obstruction		2303.133	2303.8	0.667	Person
+Obstruction		2309.133	2311.866	2.733	Person
+Obstruction		2387.066	2401.933	14.867	Person
+Obstruction		2423.0	2426.133	3.133	Person
+Obstruction		2613.466	2614.733	1.267	Person
+Obstruction		2615.3	2622.933	7.633	Person
+Tech, Frozen		1054.4	1067.8	13.4	Switching Devices
+Tech, Frozen		1332.8	1345.6	12.8	Switching Devices
+Tech, Frozen		2426.5	2439.833	13.333	Switching Devices
+Unidentifiable Behavior		785.9	787.066	1.166	Ambiguous Behavior
+Assess Timeline		0.0	664.766	664.766	UPDRS Prep
+Assess Timeline		664.766	1479.6	814.834	UPDRS Assessment
+Assess Timeline		1479.6	2646.266	1166.666	Extra Recorded Video

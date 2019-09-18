@@ -1,0 +1,46 @@
+Posture, Gait, and Transitions		0.0	553.566	553.566	Sitting
+Posture, Gait, and Transitions		553.566	553.633	0.067	PGT N/A, Visibility
+Posture, Gait, and Transitions		553.633	562.533	8.9	Sitting
+Posture, Gait, and Transitions		562.533	562.7	0.167	PGT N/A, Visibility
+Posture, Gait, and Transitions		562.7	582.833	20.133	Sitting
+Posture, Gait, and Transitions		582.833	583.2	0.367	PGT N/A, Visibility
+Posture, Gait, and Transitions		583.2	590.9	7.7	Sitting
+Posture, Gait, and Transitions		590.9	591.333	0.433	PGT N/A, Visibility
+Posture, Gait, and Transitions		591.333	601.966	10.633	Sitting
+Posture, Gait, and Transitions		601.966	602.0	0.034	PGT N/A, Visibility
+Posture, Gait, and Transitions		602.0	631.666	29.666	Sitting
+Posture, Gait, and Transitions		631.666	631.766	0.1	PGT N/A, Visibility
+Posture, Gait, and Transitions		631.766	800.066	168.3	Sitting
+Posture, Gait, and Transitions		800.066	802.633	2.567	Sit-to-Stand
+Posture, Gait, and Transitions		802.633	804.1	1.467	Sitting
+Posture, Gait, and Transitions		804.1	806.033	1.933	Sit-to-Stand
+Posture, Gait, and Transitions		806.033	806.433	0.4	Standing, Two Feet
+Posture, Gait, and Transitions		806.433	808.066	1.633	Stand-to-Sit
+Posture, Gait, and Transitions		808.066	812.466	4.4	Sitting
+Posture, Gait, and Transitions		812.466	814.266	1.8	Sit-to-Stand
+Posture, Gait, and Transitions		814.266	815.133	0.867	Standing, Two Feet
+Posture, Gait, and Transitions		815.133	816.766	1.633	Stand-to-Sit
+Posture, Gait, and Transitions		816.766	828.166	11.4	Sitting
+Posture, Gait, and Transitions		828.166	829.133	0.967	Sit-to-Stand
+Posture, Gait, and Transitions		829.133	829.466	0.333	Stand-to-Sit
+Posture, Gait, and Transitions		829.466	829.533	0.067	Sitting
+Cued Behaviors		538.466	543.966	5.5	Rigidity, Neck
+Cued Behaviors		544.5	552.4	7.9	Rigidity, RUE
+Cued Behaviors		554.4	561.533	7.133	Rigidity, LUE
+Cued Behaviors		564.066	571.6	7.534	Rigidity, RLE
+Cued Behaviors		584.133	589.5	5.367	Rigidity, LLE
+Cued Behaviors		657.333	661.933	4.6	Finger Tapping, RH
+Cued Behaviors		664.266	669.766	5.5	Finger Tapping, LH
+Cued Behaviors		678.466	684.466	6.0	Fist Open/Close, RH
+Cued Behaviors		686.466	693.366	6.9	Fist Open/Close, LH
+Cued Behaviors		712.0	718.033	6.033	Pro/Sup, RH
+Cued Behaviors		720.033	726.933	6.9	Pro/Sup, LH
+Cued Behaviors		742.033	746.233	4.2	Toe Tapping, RF
+Cued Behaviors		749.2	753.5	4.3	Toe Tapping, LF
+Cued Behaviors		764.566	769.1	4.534	Stomping, RF
+Cued Behaviors		770.466	774.433	3.967	Stomping, LF
+Cued Behaviors		828.166	829.133	0.967	Arising from Chair
+Tech, Quality		783.033	793.366	10.333	Out of Focus
+Assess Timeline		0.0	538.466	538.466	UPDRS Prep
+Assess Timeline		538.466	829.533	291.067	UPDRS Assessment
+Device Comments		632.333	638.366	6.033	Device Check.

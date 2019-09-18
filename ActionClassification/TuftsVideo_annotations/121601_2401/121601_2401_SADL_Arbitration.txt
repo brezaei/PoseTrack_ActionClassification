@@ -1,0 +1,65 @@
+SADL Timeline		2180.033	2216.6	36.567	Tying Laces
+SADL Timeline		2267.866	2440.566	172.7	 Writing
+SADL Timeline		2470.6	2507.766	37.166	Paper folding
+SADL Timeline		2533.5	2537.533	4.033	Bracelet
+SADL Timeline		2537.533	2546.6	9.067	Lanyard
+SADL Timeline		2546.6	2549.633	3.033	Bracelet
+SADL Timeline		2563.1	2576.466	13.366	Remote Control
+SADL Timeline		2594.066	2722.666	128.6	Bottle
+SADL Timeline		2802.366	2899.133	96.767	Lab Coat
+SADL Timeline		2900.9	3047.333	146.433	Writing
+SADL Timeline		3077.366	3108.53	31.164	Paper folding
+SADL Activities		2180.033	2197.666	17.633	Tying Laces, Right Shoe, S
+SADL Activities		2199.166	2216.6	17.434	Tying Laces, Left Shoe, S
+SADL Activities		2267.866	2270.1	2.234	Writing, Reach for Pen, S
+SADL Activities		2270.266	2271.066	0.8	Writing, Pickup Pen, S
+SADL Activities		2284.466	2341.633	57.167	Writing, Sentence, S
+SADL Activities		2371.3	2371.766	0.466	Writing, Reach for Pen, S
+SADL Activities		2371.9	2372.133	0.233	Writing, Pickup Pen, S
+SADL Activities		2377.0	2440.566	63.566	Writing, Cursive, S
+SADL Activities		2470.6	2507.766	37.166	Paper Folding, S
+SADL Activities		2533.5	2534.266	0.766	Bracelet, Reach for Bracelet, S
+SADL Activities		2534.366	2534.8	0.434	Bracelet, Pickup Bracelet, S
+SADL Activities		2534.8	2537.533	2.733	Bracelet, Donning, S
+SADL Activities		2537.533	2537.9	0.367	Lanyard, Reach for Lanyard, S
+SADL Activities		2538.066	2539.233	1.167	Lanyard, Pickup Lanyard, S
+SADL Activities		2539.233	2542.433	3.2	Lanyard, Donning, S
+SADL Activities		2543.233	2543.533	0.3	Lanyard, Reach for Lanyard, S
+SADL Activities		2543.6	2546.6	3.0	Lanyard, Removing, S
+SADL Activities		2546.6	2547.3	0.7	Bracelet, Reach for Bracelet, S
+SADL Activities		2547.3	2549.633	2.333	Bracelet, Removing, S
+SADL Activities		2563.1	2563.833	0.733	Remote, Reach for Remote, S
+SADL Activities		2563.966	2564.433	0.467	Remote, Pickup Remote, S
+SADL Activities		2565.166	2576.466	11.3	Remote, Buttons, S
+SADL Activities		2594.066	2594.733	0.667	Bottle, Reach for Bottle, S
+SADL Activities		2594.9	2594.966	0.066	Bottle, Pickup Bottle, S
+SADL Activities		2594.966	2596.7	1.734	Bottle, Shaking, S
+SADL Activities		2597.8	2600.866	3.066	Bottle, Opening, S
+SADL Activities		2600.9	2606.4	5.5	Bottle, Drinking, S
+SADL Activities		2606.533	2610.766	4.233	Bottle, Closing, S
+SADL Activities		2650.1	2651.166	1.066	Bottle, Reach for Bottle, S
+SADL Activities		2651.166	2653.366	2.2	Bottle, Opening, S
+SADL Activities		2653.6	2659.466	5.866	Bottle, Pouring Cup, S
+SADL Activities		2659.466	2662.133	2.667	Bottle, Closing, S
+SADL Activities		2662.566	2664.2	1.634	Bottle, Reach for Cup, S
+SADL Activities		2664.2	2664.866	0.666	Bottle, Pickup Cup, S
+SADL Activities		2664.866	2676.2	11.334	Bottle, Cup Drinking, S
+SADL Activities		2699.8	2700.733	0.933	Bottle, Reach for Bottle, S
+SADL Activities		2701.166	2703.433	2.267	Bottle, Opening, S
+SADL Activities		2703.433	2707.6	4.167	Bottle, Pouring Bowl,  S
+SADL Activities		2707.6	2711.0	3.4	Bottle, Closing, S
+SADL Activities		2711.8	2712.7	0.9	Bottle, Reach for Spoon, S
+SADL Activities		2712.766	2713.166	0.4	Bottle, Pickup Spoon, S
+SADL Activities		2713.166	2722.666	9.5	Bottle, Spoon Drinking, S
+SADL Activities		2802.366	2803.366	1.0	Lab Coat, Reach for Lab Coat, S
+SADL Activities		2803.366	2804.2	0.834	Lab Coat, Grabbing, S
+SADL Activities		2804.2	2829.3	25.1	Lab Coat, Donning, S
+SADL Activities		2829.3	2852.8	23.5	Lab Coat, Buttoning, S
+SADL Activities		2857.6	2883.733	26.133	Lab Coat, Unbuttoning, S
+SADL Activities		2883.733	2894.566	10.833	Lab Coat, Removing, S
+SADL Activities		2894.566	2899.133	4.567	Lab Coat, Returning, S
+SADL Activities		2900.9	2948.4	47.5	Writing, Sentence, S
+SADL Activities		2978.066	2978.5	0.434	Writing, Reach for Pen, S
+SADL Activities		2978.666	2978.866	0.2	Writing, Pickup Pen, S
+SADL Activities		2983.9	3047.333	63.433	Writing, Cursive, S
+SADL Activities		3077.366	3108.53	31.164	Paper Folding, S

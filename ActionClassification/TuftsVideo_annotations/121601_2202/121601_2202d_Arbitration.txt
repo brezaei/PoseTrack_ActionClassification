@@ -1,0 +1,20 @@
+Posture, Gait, and Transitions		0.0	5.566	5.566	Sitting
+Posture, Gait, and Transitions		5.566	5.833	0.267	PGT N/A, Visibility
+Posture, Gait, and Transitions		5.833	17.266	11.433	Sitting
+Posture, Gait, and Transitions		17.266	17.533	0.267	PGT N/A, Visibility
+Posture, Gait, and Transitions		17.533	29.6	12.067	Sitting
+Posture, Gait, and Transitions		29.6	29.766	0.166	PGT N/A, Visibility
+Posture, Gait, and Transitions		29.766	33.533	3.767	Sitting
+Posture, Gait, and Transitions		33.533	36.666	3.133	Sit-to-Stand
+Posture, Gait, and Transitions		36.666	42.833	6.167	Walking, Impaired Gait PS 10+ Steps
+Posture, Gait, and Transitions		42.833	98.466	55.633	Standing, Two Feet
+Turns		38.2	42.233	4.033	L 90<180º
+Turns		48.333	49.1	0.767	L <90º
+Twists		56.3	56.933	0.633	Twist R, Not Seated, <45º
+Twists		65.7	67.066	1.366	Twist R, Not Seated, <45º
+Twists		83.433	84.466	1.033	Twist R, Not Seated, <45º
+Twists		96.933	97.333	0.4	Twist L, Not Seated, <45º
+Obstruction		5.566	5.833	0.267	Person
+Obstruction		17.266	17.533	0.267	Person
+Obstruction		29.6	29.766	0.166	Person
+Assess Timeline		0.0	98.466	98.466	Extra Recorded Video

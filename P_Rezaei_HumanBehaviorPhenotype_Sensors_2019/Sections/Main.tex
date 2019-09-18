@@ -1,0 +1,224 @@
+\documentclass[sensors,article,submit,moreauthors,pdftex]{Definitions/mdpi} 
+%=================================================================
+\firstpage{1} 
+\makeatletter 
+\setcounter{page}{\@firstpage} 
+\makeatother
+\pubvolume{xx}
+\issuenum{1}
+\articlenumber{5}
+\pubyear{2019}
+\copyrightyear{2019}
+%\externaleditor{Academic Editor: name}
+\history{Received: date; Accepted: date; Published: date}
+%\updates{yes} % If there is an update available, un-comment this line
+
+%% MDPI internal command: uncomment if new journal that already uses continuous page numbers 
+%\continuouspages{yes}
+
+%------------------------------------------------------------------
+\usepackage{array}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{amsfonts}
+\usepackage{mdwmath}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{url}
+\usepackage{float}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{balance}
+\usepackage[english]{babel}
+\usepackage[font=footnotesize]{caption}
+\usepackage{comment}
+\newcommand{\eqnref}[1]{Equation~(\ref{eqn:#1})}
+\newcommand{\figref}[1]{Fig.~\ref{fig:#1}}
+\newcommand{\tblref}[1]{Table~\ref{tbl:#1}}
+\newcommand{\secref}[1]{Section~\ref{sec:#1}}
+\newcommand{\algref}[1]{Algorithm.~\ref{alg:#1}}
+\newcommand{\com}[1]{\textcolor{red}{#1}}
+%%%%%%%%%%%% add files
+\input{figs}
+\input{tabs}
+%%%%%%%%%%%%
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,colorlinks,bookmarks=false]{hyperref}
+% correct bad hyphenation here
+%\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{Target-Specific Action Classification for Automated Phenotyping of Human Motor Behavior from Video} %Toward AI assisting Health-care}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+
+\author{Behnaz~Rezaei,~\IEEEmembership{student member},~IEEE,
+        Yiorgos~Christakis,
+        Bryan~Ho,
+        Kevin~Thomas,
+        Kelley~Erb,
+        Sarah~Ostadabbas,~\IEEEmembership{member},~IEEE,
+        and~Shyamal~Patel,~\IEEEmembership{member},~IEEE.% <-this % stops a space
+\thanks{B. Rezaei and S. Ostadabbas are with the Augmented Cognition Lab (ACLab) at the Department
+of Electrical and Computer Engineering, Northeastern University, Boston,
+MA 02115, USA. e-mails: \{brezaei, ostadabbas\}@ece.neu.edu.
+B. Ho is with the Neurology Department at Tufts University School of Medicine, Boston, MA 02111, USA. email: bho@tuftsmedicalcenter.org.
+K. Thomas is with the Department of Anatomy & Neurobiology at Boston University School of Medicine, Boston, MA 02118, USA. email: kipthoma@bu.edu.
+Y. Christakis, Kelley Erb and S. Patel are with the Digital Medicine \& Translational Imaging group at Pfizer, Cambridge, MA 02139, USA. e-mails: \{Yiorgos.Christakis, MichaelKelley.Erb, Shyamal.Patel\}@pfizer.com.
+}
+}% <-this % stops a space
+%\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+%\thanks{Manuscript received April 19, 2005; revised August 26, %2015.}}
+
+% note the % following the last \IEEEmembership and also \thanks - 
+% these prevent an unwanted space from occurring between the last author name
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+\markboth{Journal of biomedical and health informatics,~Vol.~??, No.~??, ??~2019}%
+{Shell \MakeLowercase{\textit{et al.}}: Target Specific Action Recognition Applied to AI Driven Human Behavior Phenotyping} %Toward AI assisting Health-care}
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+\input{Sections/Abstract.tex}
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+Action classification, computer vision, deep learning, human behavior phenotyping, pose tracking.
+\end{IEEEkeywords}
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+%%%%%%%%%% Introduction
+\section{Introduction}
+\input{Sections/Introduction.tex}
+%%%%%%%%% Method
+\section{Target Actor Pose Tracking}
+\label{sec:PoseTrack}
+\input{Sections/Method.tex}
+\subsection{Human Pose Estimation}
+\label{sec:PoseEst}
+\input{Sections/Method_pose.tex}
+\subsection{Incremental Pose Tracking}
+\label{sec:track}
+\input{Sections/Method_tracking.tex}
+\section{Action Classification Based on Pose Evolution Map}
+\label{sec:action}
+\input{Sections/Method_action.tex}
+%%%%%%%% Result
+\section{Experiments} \label{sec:experiment}
+\input{Sections/Experiments.tex}
+%%%%%%%%% Discussion
+\section{Discussion} \label{sec:discussion}
+\input{Sections/Discussion.tex}
+%%%%%%%% Conclusion
+\section{Conclusion and Future Work} \label{sec:conclusion}
+\input{Sections/Conclusion.tex}
+%\appendices
+%\section{Proof of the First Zonklar Equation}
+% use section* for acknowledgment
+\section*{Acknowledgment}
+The authors would like to acknowledge the BlueSky project team for generating the data that made this work possible. Specifically, we would like to acknowledge Hao Zhang, Steve Amato, Vesper Ramos, Paul Wacnik and Tairmae Kangarloo for their contributions to study design and data collection.
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+{\small
+\bibliographystyle{ieee}
+\bibliography{Ref}
+}
+%%%%%%%%%%%%%%% Biography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{IEEEbiography}{Behnaz Rezaei}
+%Biography text here.
+%\end{IEEEbiography}
+
+% if you will not have a photo at all:
+%\begin{IEEEbiographynophoto}{Shyamal Patel}
+%Biography text here.
+%\end{IEEEbiographynophoto}
+
+% insert where needed to balance the two columns on the last page with
+% biographies
+%\newpage
+
+%\begin{IEEEbiographynophoto}{Jane Doe}
+%Biography text here.
+%\end{IEEEbiographynophoto}
+
+% You can push biographies down or up by placing
+% a \vfill before or after them. The appropriate
+% use of \vfill depends on what kind of text is
+% on the last page and whether or not the columns
+% are being equalized.
+
+%\vfill
+
+% Can be used to pull up biographies so that the bottom of the last one
+% is flush with the other column.
+%\enlargethispage{-5in}
+
+
+
+% that's all folks
+\end{document}
+
+

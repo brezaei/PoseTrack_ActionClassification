@@ -1,0 +1,82 @@
+SADL Timeline		1466.633	00:24:26:18	1486.6	00:24:46:17	19.967	00:00:19:28	Tying Laces
+SADL Timeline		1507.633	00:25:07:19	1814.466	00:30:14:13	306.833	00:05:06:25	Writing
+SADL Timeline		1836.833	00:30:36:23	1862.566	00:31:02:17	25.733	00:00:25:21	Paper folding
+SADL Timeline		1879.7	00:31:19:20	1881.633	00:31:21:18	1.933	00:00:01:27	Bracelet
+SADL Timeline		1881.633	00:31:21:18	1886.8	00:31:26:23	5.167	00:00:05:04	Lanyard
+SADL Timeline		1886.8	00:31:26:23	1889.833	00:31:29:24	3.033	00:00:03:00	Bracelet
+SADL Timeline		1897.5	00:31:37:14	1914.233	00:31:54:05	16.733	00:00:16:21	Remote Control
+SADL Timeline		1919.9	00:31:59:25	2020.466	00:33:40:13	100.566	00:01:40:15	Bottle
+SADL Timeline		2070.733	00:34:30:21	2207.0	00:36:46:29	136.267	00:02:16:07	Lab Coat
+SADL Timeline		2216.5	00:36:56:14	2250.5	00:37:30:15	34.0	00:00:33:28	Sweater
+SADL Timeline		2268.2	00:37:48:05	2272.5	00:37:52:14	4.3	00:00:04:08	Door
+SADL Timeline		2324.2	00:38:44:06	2354.033	00:39:14:02	29.833	00:00:29:24	Book
+SADL Timeline		2404.333	00:40:04:09	2533.866	00:42:13:25	129.533	00:02:09:16	Satchel
+SADL Activities		1466.633	00:24:26:18	1475.766	00:24:35:22	9.133	00:00:09:03	Tying Laces, Left Shoe, S
+SADL Activities		1476.033	00:24:36:00	1486.6	00:24:46:17	10.567	00:00:10:16	Tying Laces, Right Shoe, S
+SADL Activities		1507.633	00:25:07:19	1508.4	00:25:08:12	0.767	00:00:00:22	Writing, Reach for Pen, S
+SADL Activities		1508.7	00:25:08:21	1508.833	00:25:08:25	0.133	00:00:00:03	Writing, Pickup Pen, S
+SADL Activities		1534.7	00:25:34:20	1636.8	00:27:16:24	102.1	00:01:42:01	Writing, Sentence, S
+SADL Activities		1640.566	00:27:20:17	1641.033	00:27:21:01	0.467	00:00:00:13	Writing, Reach for Pen, S
+SADL Activities		1641.366	00:27:21:11	1641.933	00:27:21:28	0.567	00:00:00:16	Writing, Pickup Pen, S
+SADL Activities		1656.166	00:27:36:05	1814.466	00:30:14:13	158.3	00:02:38:08	Writing, Cursive, S
+SADL Activities		1836.833	00:30:36:23	1862.566	00:31:02:17	25.733	00:00:25:21	Paper Folding, S
+SADL Activities		1879.7	00:31:19:20	1880.3	00:31:20:08	0.6	00:00:00:17	Bracelet, Reach for Bracelet, S
+SADL Activities		1880.3	00:31:20:08	1880.666	00:31:20:19	0.366	00:00:00:10	Bracelet, Pickup Bracelet, S
+SADL Activities		1880.666	00:31:20:19	1881.633	00:31:21:18	0.967	00:00:00:28	Bracelet, Donning, S
+SADL Activities		1881.633	00:31:21:18	1882.0	00:31:21:29	0.367	00:00:00:10	Lanyard, Reach for Lanyard, S
+SADL Activities		1882.0	00:31:21:29	1882.8	00:31:22:23	0.8	00:00:00:23	Lanyard, Pickup Lanyard, S
+SADL Activities		1882.8	00:31:22:23	1884.433	00:31:24:12	1.633	00:00:01:18	Lanyard, Donning, S
+SADL Activities		1884.433	00:31:24:12	1886.8	00:31:26:23	2.367	00:00:02:10	Lanyard, Removing, S
+SADL Activities		1886.8	00:31:26:23	1887.033	00:31:27:00	0.233	00:00:00:06	Bracelet, Reach for Bracelet, S
+SADL Activities		1887.033	00:31:27:00	1889.833	00:31:29:24	2.8	00:00:02:23	Bracelet, Removing, S
+SADL Activities		1897.5	00:31:37:14	1898.333	00:31:38:09	0.833	00:00:00:24	Remote, Reach for Remote, S
+SADL Activities		1898.333	00:31:38:09	1898.8	00:31:38:23	0.467	00:00:00:13	Remote, Pickup Remote, S
+SADL Activities		1902.933	00:31:42:26	1914.233	00:31:54:05	11.3	00:00:11:08	Remote, Buttons, S
+SADL Activities		1919.9	00:31:59:25	1920.6	00:32:00:18	0.7	00:00:00:20	Bottle, Reach for Bottle, S
+SADL Activities		1931.033	00:32:11:01	1931.133	00:32:11:04	0.1	00:00:00:02	Bottle, Pickup Bottle, S
+SADL Activities		1931.133	00:32:11:04	1934.233	00:32:14:06	3.1	00:00:03:02	Bottle, Shaking, S
+SADL Activities		1935.0	00:32:14:29	1938.1	00:32:18:02	3.1	00:00:03:02	Bottle, Opening, S
+SADL Activities		1938.2	00:32:18:05	1938.333	00:32:18:09	0.133	00:00:00:03	Bottle, Pickup Bottle, S
+SADL Activities		1938.333	00:32:18:09	1939.866	00:32:19:25	1.533	00:00:01:15	Bottle, Drinking, S
+SADL Activities		1940.433	00:32:20:12	1943.333	00:32:23:09	2.9	00:00:02:26	Bottle, Closing, S
+SADL Activities		1961.633	00:32:41:18	1962.266	00:32:42:07	0.633	00:00:00:18	Bottle, Reach for Bottle, S
+SADL Activities		1962.266	00:32:42:07	1963.166	00:32:43:04	0.9	00:00:00:26	Bottle, Opening, S
+SADL Activities		1963.166	00:32:43:04	1967.9	00:32:47:25	4.734	00:00:04:21	Bottle, Pouring Cup, S
+SADL Activities		1967.9	00:32:47:25	1970.166	00:32:50:03	2.266	00:00:02:07	Bottle, Closing, S
+SADL Activities		1970.166	00:32:50:03	1970.9	00:32:50:25	0.734	00:00:00:21	Bottle, Reach for Cup, S
+SADL Activities		1971.366	00:32:51:09	1971.5	00:32:51:13	0.134	00:00:00:04	Bottle, Pickup Cup, S
+SADL Activities		1971.5	00:32:51:13	1979.033	00:32:58:29	7.533	00:00:07:15	Bottle, Cup Drinking, S
+SADL Activities		2001.8	00:33:21:23	2002.466	00:33:22:13	0.666	00:00:00:19	Bottle, Reach for Bottle, S
+SADL Activities		2002.533	00:33:22:15	2003.233	00:33:23:06	0.7	00:00:00:20	Bottle, Opening, S
+SADL Activities		2003.233	00:33:23:06	2007.2	00:33:27:05	3.967	00:00:03:28	Bottle, Pouring Bowl,  S
+SADL Activities		2007.2	00:33:27:05	2010.9	00:33:30:26	3.7	00:00:03:20	Bottle, Closing, S
+SADL Activities		2010.9	00:33:30:26	2011.5	00:33:31:14	0.6	00:00:00:17	Bottle, Reach for Spoon, S
+SADL Activities		2011.5	00:33:31:14	2011.9	00:33:31:26	0.4	00:00:00:11	Bottle, Pickup Spoon, S
+SADL Activities		2012.766	00:33:32:22	2020.466	00:33:40:13	7.7	00:00:07:20	Bottle, Spoon Drinking, S
+SADL Activities		2070.733	00:34:30:21	2071.5	00:34:31:14	0.767	00:00:00:22	Lab Coat, Reach for Lab Coat, S
+SADL Activities		2071.5	00:34:31:14	2071.766	00:34:31:22	0.266	00:00:00:07	Lab Coat, Grabbing, S
+SADL Activities		2071.766	00:34:31:22	2086.966	00:34:46:28	15.2	00:00:15:05	Lab Coat, Donning, S
+SADL Activities		2086.966	00:34:46:28	2151.666	00:35:51:19	64.7	00:01:04:21	Lab Coat, Buttoning, S
+SADL Activities		2151.666	00:35:51:19	2200.1	00:36:40:02	48.434	00:00:48:11	Lab Coat, Unbuttoning, S
+SADL Activities		2200.1	00:36:40:02	2205.533	00:36:45:15	5.433	00:00:05:12	Lab Coat, Removing, S
+SADL Activities		2205.533	00:36:45:15	2207.0	00:36:46:29	1.467	00:00:01:13	Lab Coat, Returning, S
+SADL Activities		2216.5	00:36:56:14	2216.966	00:36:56:28	0.466	00:00:00:13	Sweater, Reach for Sweater, S
+SADL Activities		2216.966	00:36:56:28	2217.8	00:36:57:23	0.834	00:00:00:24	Sweater, Grabbing, S
+SADL Activities		2217.8	00:36:57:23	2231.833	00:37:11:26	14.033	00:00:14:00	Sweater, Donning, S
+SADL Activities		2231.833	00:37:11:26	2239.666	00:37:19:20	7.833	00:00:07:24	Sweater, Zipping, S
+SADL Activities		2241.3	00:37:21:09	2241.866	00:37:21:26	0.566	00:00:00:16	Sweater, Unzipping, S
+SADL Activities		2242.0	00:37:22:00	2246.933	00:37:26:28	4.933	00:00:04:27	Sweater, Removing, S
+SADL Activities		2246.933	00:37:26:28	2250.5	00:37:30:15	3.567	00:00:03:16	Sweater, Returning, S
+SADL Activities		2268.2	00:37:48:05	2269.8	00:37:49:23	1.6	00:00:01:17	Door, Opening, S
+SADL Activities		2270.166	00:37:50:04	2272.5	00:37:52:14	2.334	00:00:02:09	Door, Closing, S
+SADL Activities		2324.2	00:38:44:06	2326.4	00:38:46:12	2.2	00:00:02:05	Book, Walking To, S 
+SADL Activities		2326.4	00:38:46:12	2327.033	00:38:47:01	0.633	00:00:00:18	Book, Reach for Book, S
+SADL Activities		2327.033	00:38:47:01	2328.4	00:38:48:12	1.367	00:00:01:10	Book, Grabbing, S
+SADL Activities		2328.4	00:38:48:12	2352.166	00:39:12:06	23.766	00:00:23:22	Book, Walking, S
+SADL Activities		2352.166	00:39:12:06	2354.033	00:39:14:02	1.867	00:00:01:25	Book, Placing, S
+SADL Activities		2404.333	00:40:04:09	2405.733	00:40:05:21	1.4	00:00:01:11	Satchel, Walking to, S
+SADL Activities		2405.733	00:40:05:21	2406.766	00:40:06:22	1.033	00:00:01:00	Satchel, Reach for Satchel, S
+SADL Activities		2406.766	00:40:06:22	2407.566	00:40:07:16	0.8	00:00:00:23	Satchel, Grabbing, S
+SADL Activities		2407.566	00:40:07:16	2438.3	00:40:38:07	30.734	00:00:30:21	Satchel, Walking, S
+SADL Activities		2438.3	00:40:38:07	2529.233	00:42:09:07	90.933	00:01:30:27	 Satchel, Holding Up, S
+SADL Activities		2530.033	00:42:10:01	2533.866	00:42:13:25	3.833	00:00:03:24	Satchel, Placing, S

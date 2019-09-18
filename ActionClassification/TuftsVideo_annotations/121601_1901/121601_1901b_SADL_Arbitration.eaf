@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-11-29T17:36:54-05:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/gabrielle/Downloads/121601_1901b_NoID_YES.mp4" MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="../../../../Downloads/121601_1901b_NoID_YES.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:1eb28d3f-3322-4b85-ad08-6aae5859da28</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">75</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="105271"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="105271"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="120286"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="120286"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="156656"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="156656"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="170904"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="170904"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="171671"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="171671"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="172305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="172305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="173539"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="173539"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="173539"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="173539"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="173940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="173940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="174707"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="174707"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="177176"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="177176"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="180346"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="180346"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="180346"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="180346"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="182582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="182582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="189555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="189556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="190890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="190890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="191858"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="198464"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="209242"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="209242"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="215581"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="215582"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="216783"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="234100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="234267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="234267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="238471"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="239072"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="242375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="242475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="242608"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="242608"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="245645"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="247080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="250183"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="273940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="274607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="274607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="278144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="278144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="285084"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="285084"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="286452"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="286452"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="286953"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="286953"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="294060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="295361"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="298798"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="316516"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="317450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="319919"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="321354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="321354"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="326626"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="326626"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="328494"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="328494"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="329128"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="329128"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="329462"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="331063"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="337103"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="337103"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="389322"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="389322"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="390223"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="390223"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="391324"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="391324"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="411611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="411611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="534967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="534967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="575741"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="576042"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="585117"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="585384"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="586519"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="586519"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="595594"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="595595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="596495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="596495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="597129"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="597430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="607773"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="607773"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="617750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="617750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="619318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="619618"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="624690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="624690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="627493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="627493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="655387"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="655388"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="657356"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="657756"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="659692"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="659692"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="730195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="730196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="731931"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="731931"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="733465"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="733465"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="734300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="734300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="757556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="757556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="759258"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="759258"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="816915"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="816916"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="844610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="844610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="938971"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="938971"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="SADL Timeline" TIER_ID="SADL Timeline">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" CVE_REF="cveid1" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Writing</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" CVE_REF="cveid2" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE>Paper folding</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62" CVE_REF="cveid4" TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts15">
+                <ANNOTATION_VALUE>Bracelet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63" CVE_REF="cveid3" TIME_SLOT_REF1="ts18" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>Lanyard</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64" CVE_REF="cveid4" TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>Bracelet</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65" CVE_REF="cveid5" TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>Remote Control</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66" CVE_REF="cveid6" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>Bottle</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67" CVE_REF="cveid7" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>Lab Coat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68" CVE_REF="cveid8" TIME_SLOT_REF1="ts100" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>Sweater</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a71" CVE_REF="cveid9" TIME_SLOT_REF1="ts116" TIME_SLOT_REF2="ts120">
+                <ANNOTATION_VALUE>Door</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72" CVE_REF="cveid10" TIME_SLOT_REF1="ts122" TIME_SLOT_REF2="ts132">
+                <ANNOTATION_VALUE>Book</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73" CVE_REF="cveid11" TIME_SLOT_REF1="ts134" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>Satchel</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="SADL Activities" TIER_ID="SADL Activities">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" CVE_REF="cveid10" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>Writing, Cursive, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" CVE_REF="cveid13" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Paper Folding, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" CVE_REF="cveid24" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts11">
+                <ANNOTATION_VALUE>Bracelet, Reach for Bracelet, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" CVE_REF="cveid26" TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>Bracelet, Pickup Bracelet, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" CVE_REF="cveid28" TIME_SLOT_REF1="ts14" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Bracelet, Donning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" CVE_REF="cveid15" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts19">
+                <ANNOTATION_VALUE>Lanyard, Reach for Lanyard, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74" CVE_REF="cveid17" TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>Lanyard, Pickup Lanyard, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" CVE_REF="cveid19" TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE>Lanyard, Donning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" CVE_REF="cveid21" TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>Lanyard, Removing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" CVE_REF="cveid30" TIME_SLOT_REF1="ts26" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>Bracelet, Removing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" CVE_REF="cveid33" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>Remote, Reach for Remote, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" CVE_REF="cveid35" TIME_SLOT_REF1="ts34" TIME_SLOT_REF2="ts35">
+                <ANNOTATION_VALUE>Remote, Pickup Remote, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" CVE_REF="cveid37" TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>Remote, Buttons, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" CVE_REF="cveid40" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>Bottle, Reach for Bottle, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" CVE_REF="cveid42" TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts43">
+                <ANNOTATION_VALUE>Bottle, Pickup Bottle, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" CVE_REF="cveid44" TIME_SLOT_REF1="ts44" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>Bottle, Shaking, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" CVE_REF="cveid46" TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>Bottle, Opening, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" CVE_REF="cveid42" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>Bottle, Pickup Bottle, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" CVE_REF="cveid50" TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts51">
+                <ANNOTATION_VALUE>Bottle, Drinking, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" CVE_REF="cveid48" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>Bottle, Closing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" CVE_REF="cveid40" TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>Bottle, Reach for Bottle, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" CVE_REF="cveid46" TIME_SLOT_REF1="ts56" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>Bottle, Opening, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" CVE_REF="cveid52" TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>Bottle, Pouring Cup, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" CVE_REF="cveid57" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>Bottle, Reach for Cup, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" CVE_REF="cveid59" TIME_SLOT_REF1="ts62" TIME_SLOT_REF2="ts63">
+                <ANNOTATION_VALUE>Bottle, Pickup Cup, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" CVE_REF="cveid61" TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts65">
+                <ANNOTATION_VALUE>Bottle, Cup Drinking, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" CVE_REF="cveid48" TIME_SLOT_REF1="ts66" TIME_SLOT_REF2="ts67">
+                <ANNOTATION_VALUE>Bottle, Closing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75" CVE_REF="cveid40" TIME_SLOT_REF1="ts68" TIME_SLOT_REF2="ts69">
+                <ANNOTATION_VALUE>Bottle, Reach for Bottle, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" CVE_REF="cveid46" TIME_SLOT_REF1="ts70" TIME_SLOT_REF2="ts71">
+                <ANNOTATION_VALUE>Bottle, Opening, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" CVE_REF="cveid54" TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>Bottle, Pouring Bowl,  S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" CVE_REF="cveid48" TIME_SLOT_REF1="ts74" TIME_SLOT_REF2="ts75">
+                <ANNOTATION_VALUE>Bottle, Closing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" CVE_REF="cveid64" TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>Bottle, Reach for Spoon, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" CVE_REF="cveid66" TIME_SLOT_REF1="ts78" TIME_SLOT_REF2="ts79">
+                <ANNOTATION_VALUE>Bottle, Pickup Spoon, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" CVE_REF="cveid69" TIME_SLOT_REF1="ts80" TIME_SLOT_REF2="ts81">
+                <ANNOTATION_VALUE>Bottle, Spoon Drinking, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" CVE_REF="cveid73" TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>Lab Coat, Reach for Lab Coat, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" CVE_REF="cveid75" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>Lab Coat, Grabbing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" CVE_REF="cveid77" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>Lab Coat, Donning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" CVE_REF="cveid79" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts91">
+                <ANNOTATION_VALUE>Lab Coat, Buttoning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" CVE_REF="cveid81" TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts93">
+                <ANNOTATION_VALUE>Lab Coat, Unbuttoning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" CVE_REF="cveid83" TIME_SLOT_REF1="ts94" TIME_SLOT_REF2="ts95">
+                <ANNOTATION_VALUE>Lab Coat, Removing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" CVE_REF="cveid85" TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts97">
+                <ANNOTATION_VALUE>Lab Coat, Returning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" CVE_REF="cveid90" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts101">
+                <ANNOTATION_VALUE>Sweater, Reach for Sweater, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" CVE_REF="cveid92" TIME_SLOT_REF1="ts102" TIME_SLOT_REF2="ts103">
+                <ANNOTATION_VALUE>Sweater, Grabbing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" CVE_REF="cveid94" TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts105">
+                <ANNOTATION_VALUE>Sweater, Donning, S </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" CVE_REF="cveid96" TIME_SLOT_REF1="ts106" TIME_SLOT_REF2="ts107">
+                <ANNOTATION_VALUE>Sweater, Zipping, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" CVE_REF="cveid98" TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts109">
+                <ANNOTATION_VALUE>Sweater, Unzipping, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" CVE_REF="cveid100" TIME_SLOT_REF1="ts110" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>Sweater, Removing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" CVE_REF="cveid102" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts113">
+                <ANNOTATION_VALUE>Sweater, Returning, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" CVE_REF="cveid107" TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts117">
+                <ANNOTATION_VALUE>Door, Opening, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" CVE_REF="cveid109" TIME_SLOT_REF1="ts118" TIME_SLOT_REF2="ts119">
+                <ANNOTATION_VALUE>Door, Closing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57" CVE_REF="cveid113" TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts123">
+                <ANNOTATION_VALUE>Book, Walking To, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58" CVE_REF="cveid111" TIME_SLOT_REF1="ts124" TIME_SLOT_REF2="ts125">
+                <ANNOTATION_VALUE>Book, Reach for Book, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59" CVE_REF="cveid115" TIME_SLOT_REF1="ts126" TIME_SLOT_REF2="ts127">
+                <ANNOTATION_VALUE>Book, Grabbing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60" CVE_REF="cveid117" TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts129">
+                <ANNOTATION_VALUE>Book, Walking, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61" CVE_REF="cveid119" TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts131">
+                <ANNOTATION_VALUE>Book, Placing, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a69" CVE_REF="cveid130" TIME_SLOT_REF1="ts133" TIME_SLOT_REF2="ts135">
+                <ANNOTATION_VALUE>Satchel, Walking, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70" CVE_REF="cveid132" TIME_SLOT_REF1="ts136" TIME_SLOT_REF2="ts137">
+                <ANNOTATION_VALUE>Satchel, Holding Up, S</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="SADL Events" TIER_ID="SADL Events"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Posture, Gait, and Transitions" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Posture, Gait, and Transitions" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Cued Behaviors" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Cued Behaviors" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Turns" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Turns" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Twists" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Twists" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Obstruction" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Obstruction" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Tech, Quality" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Tech, Quality" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Tech, Artifact" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Tech, Artifact" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Tech, Frozen View" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Tech, Frozen View" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Unidentifiable Behavior" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Unidentifiable Behavior" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Assess Timeline" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Assess Timeline" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="SADL Timeline" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="SADL Timeline" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="SADL Activities" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="SADL Activities" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="SADL Events" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="SADL Events" TIME_ALIGNABLE="true"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Obstruction">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Object</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Person</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="SADL Events">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Water Spill</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Unidentifiable Behavior">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Behavior Out of View</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Ambiguous Behavior</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Tech, Frozen View">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Switching Devices</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Video Software Issue</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Tech, Artifact">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Pixellation</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Pixel Loss</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">Screen Tearing</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Turns">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">R &lt;90º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">R 90&lt;180º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">R 180-360º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">R 360º+</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE LANG_REF="und">L &lt;90º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE LANG_REF="und">L 90&lt;180º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE LANG_REF="und">L 180-360º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE LANG_REF="und">L 360º+</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Tech, Quality">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Out of Focus</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Low Resolution</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="SADL Timeline">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Tying Laces</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Writing</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">Paper folding</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE LANG_REF="und">Lanyard</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">Bracelet</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE LANG_REF="und">Remote Control</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE LANG_REF="und">Bottle</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE LANG_REF="und">Lab Coat</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE LANG_REF="und">Sweater</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE LANG_REF="und">Door</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE LANG_REF="und">Book</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE LANG_REF="und">Satchel</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Assess Timeline">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Extra Recorded Video</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">UPDRS Prep</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">UPDRS Assessment</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE LANG_REF="und">iTUG Prep</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">iTUG Assessment</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="SADL Activities">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Tying Laces, Left Shoe, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Tying Laces, Left Shoe, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">Tying Laces, Right Shoe, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE LANG_REF="und">Tying Laces, Right Shoe, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">Writing, Reach for Pen, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE LANG_REF="und">Writing, Reach for Pen, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE LANG_REF="und">Writing, Pickup Pen, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE LANG_REF="und">Writing, Pickup Pen, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE LANG_REF="und">Writing, Sentence, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE LANG_REF="und">Writing, Sentence, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE LANG_REF="und">Writing, Cursive, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE LANG_REF="und">Writing, Cursive, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE LANG_REF="und">Writing, Pen Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE LANG_REF="und">Paper Folding, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE LANG_REF="und">Paper Folding, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE LANG_REF="und">Lanyard, Reach for Lanyard, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid16">
+            <CVE_VALUE LANG_REF="und">Lanyard, Reach for Lanyard, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid17">
+            <CVE_VALUE LANG_REF="und">Lanyard, Pickup Lanyard, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid18">
+            <CVE_VALUE LANG_REF="und">Lanyard, Pickup Lanyard, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid19">
+            <CVE_VALUE LANG_REF="und">Lanyard, Donning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid20">
+            <CVE_VALUE LANG_REF="und">Lanyard, Donning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid21">
+            <CVE_VALUE LANG_REF="und">Lanyard, Removing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid22">
+            <CVE_VALUE LANG_REF="und">Lanyard, Removing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid23">
+            <CVE_VALUE LANG_REF="und">Lanyard, Lanyard Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid24">
+            <CVE_VALUE LANG_REF="und">Bracelet, Reach for Bracelet, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid25">
+            <CVE_VALUE LANG_REF="und">Bracelet, Reach for Bracelet, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid26">
+            <CVE_VALUE LANG_REF="und">Bracelet, Pickup Bracelet, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid27">
+            <CVE_VALUE LANG_REF="und">Bracelet, Pickup Bracelet, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid28">
+            <CVE_VALUE LANG_REF="und">Bracelet, Donning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid29">
+            <CVE_VALUE LANG_REF="und">Bracelet, Donning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid30">
+            <CVE_VALUE LANG_REF="und">Bracelet, Removing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid31">
+            <CVE_VALUE LANG_REF="und">Bracelet, Removing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid32">
+            <CVE_VALUE LANG_REF="und">Bracelet, Bracelet Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid33">
+            <CVE_VALUE LANG_REF="und">Remote, Reach for Remote, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid34">
+            <CVE_VALUE LANG_REF="und">Remote, Reach for Remote, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid35">
+            <CVE_VALUE LANG_REF="und">Remote, Pickup Remote, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid36">
+            <CVE_VALUE LANG_REF="und">Remote, Pickup Remote, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid37">
+            <CVE_VALUE LANG_REF="und">Remote, Buttons, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid38">
+            <CVE_VALUE LANG_REF="und">Remote, Buttons, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid39">
+            <CVE_VALUE LANG_REF="und">Remote, Remote Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid40">
+            <CVE_VALUE LANG_REF="und">Bottle, Reach for Bottle, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid41">
+            <CVE_VALUE LANG_REF="und">Bottle, Reach for Bottle, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid42">
+            <CVE_VALUE LANG_REF="und">Bottle, Pickup Bottle, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid43">
+            <CVE_VALUE LANG_REF="und">Bottle, Pickup Bottle, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid44">
+            <CVE_VALUE LANG_REF="und">Bottle, Shaking, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid45">
+            <CVE_VALUE LANG_REF="und">Bottle, Shaking, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid46">
+            <CVE_VALUE LANG_REF="und">Bottle, Opening, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid47">
+            <CVE_VALUE LANG_REF="und">Bottle, Opening, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid48">
+            <CVE_VALUE LANG_REF="und">Bottle, Closing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid49">
+            <CVE_VALUE LANG_REF="und">Bottle, Closing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid50">
+            <CVE_VALUE LANG_REF="und">Bottle, Drinking, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid51">
+            <CVE_VALUE LANG_REF="und">Bottle, Drinking, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid52">
+            <CVE_VALUE LANG_REF="und">Bottle, Pouring Cup, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid53">
+            <CVE_VALUE LANG_REF="und">Bottle, Pouring Cup, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid54">
+            <CVE_VALUE LANG_REF="und">Bottle, Pouring Bowl,  S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid55">
+            <CVE_VALUE LANG_REF="und">Bottle, Pouring Bowl, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid56">
+            <CVE_VALUE LANG_REF="und">Bottle, Bottle Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid57">
+            <CVE_VALUE LANG_REF="und">Bottle, Reach for Cup, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid58">
+            <CVE_VALUE LANG_REF="und">Bottle, Reach for Cup, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid59">
+            <CVE_VALUE LANG_REF="und">Bottle, Pickup Cup, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid60">
+            <CVE_VALUE LANG_REF="und">Bottle, Pickup Cup, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid61">
+            <CVE_VALUE LANG_REF="und">Bottle, Cup Drinking, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid62">
+            <CVE_VALUE LANG_REF="und">Bottle, Cup Drinking, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid63">
+            <CVE_VALUE LANG_REF="und">Bottle, Cup Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid64">
+            <CVE_VALUE LANG_REF="und">Bottle, Reach for Spoon, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid65">
+            <CVE_VALUE LANG_REF="und">Bottle, Reach for Spoon, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid66">
+            <CVE_VALUE LANG_REF="und">Bottle, Pickup Spoon, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid67">
+            <CVE_VALUE LANG_REF="und">Bottle, Pickup Spoon, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid69">
+            <CVE_VALUE LANG_REF="und">Bottle, Spoon Drinking, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid71">
+            <CVE_VALUE LANG_REF="und">Bottle, Spoon Drinking, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid72">
+            <CVE_VALUE LANG_REF="und">Bottle, Spoon Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid73">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Reach for Lab Coat, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid74">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Reach for Lab Coat, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid75">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Grabbing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid76">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Grabbing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid77">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Donning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid78">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Donning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid79">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Buttoning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid80">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Buttoning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid81">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Unbuttoning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid82">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Unbuttoning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid83">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Removing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid84">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Removing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid85">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Returning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid86">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Returning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid87">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Lab Coat Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid88">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Pickup Lab Coat, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid89">
+            <CVE_VALUE LANG_REF="und">Lab Coat, Pickup Lab Coat, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid90">
+            <CVE_VALUE LANG_REF="und">Sweater, Reach for Sweater, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid91">
+            <CVE_VALUE LANG_REF="und">Sweater, Reach for Sweater, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid92">
+            <CVE_VALUE LANG_REF="und">Sweater, Grabbing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid93">
+            <CVE_VALUE LANG_REF="und">Sweater, Grabbing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid94">
+            <CVE_VALUE LANG_REF="und">Sweater, Donning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid95">
+            <CVE_VALUE LANG_REF="und">Sweater, Donning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid96">
+            <CVE_VALUE LANG_REF="und">Sweater, Zipping, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid97">
+            <CVE_VALUE LANG_REF="und">Sweater, Zipping, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid98">
+            <CVE_VALUE LANG_REF="und">Sweater, Unzipping, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid99">
+            <CVE_VALUE LANG_REF="und">Sweater, Unzipping, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid100">
+            <CVE_VALUE LANG_REF="und">Sweater, Removing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid101">
+            <CVE_VALUE LANG_REF="und">Sweater, Removing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid102">
+            <CVE_VALUE LANG_REF="und">Sweater, Returning, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid103">
+            <CVE_VALUE LANG_REF="und">Sweater, Returning, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid104">
+            <CVE_VALUE LANG_REF="und">Sweater, Sweater Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid105">
+            <CVE_VALUE LANG_REF="und">Sweater, Pickup Sweater, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid106">
+            <CVE_VALUE LANG_REF="und">Sweater, Pickup Sweater, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid107">
+            <CVE_VALUE LANG_REF="und">Door, Opening, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid108">
+            <CVE_VALUE LANG_REF="und">Door, Opening, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid109">
+            <CVE_VALUE LANG_REF="und">Door, Closing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid110">
+            <CVE_VALUE LANG_REF="und">Door, Closing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid111">
+            <CVE_VALUE LANG_REF="und">Book, Reach for Book, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid112">
+            <CVE_VALUE LANG_REF="und">Book, Reach for Book, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid113">
+            <CVE_VALUE LANG_REF="und">Book, Walking To, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid114">
+            <CVE_VALUE LANG_REF="und">Book, Walking To, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid115">
+            <CVE_VALUE LANG_REF="und">Book, Grabbing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid116">
+            <CVE_VALUE LANG_REF="und">Book, Grabbing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid117">
+            <CVE_VALUE LANG_REF="und">Book, Walking, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid118">
+            <CVE_VALUE LANG_REF="und">Book, Walking, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid119">
+            <CVE_VALUE LANG_REF="und">Book, Placing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid120">
+            <CVE_VALUE LANG_REF="und">Book, Placing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid121">
+            <CVE_VALUE LANG_REF="und">Book, Book Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid122">
+            <CVE_VALUE LANG_REF="und">Book, Pickup Book, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid123">
+            <CVE_VALUE LANG_REF="und">Book, Pickup Book, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid124">
+            <CVE_VALUE LANG_REF="und">Satchel, Reach for Satchel, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid125">
+            <CVE_VALUE LANG_REF="und">Satchel, Reach for Satchel, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid126">
+            <CVE_VALUE LANG_REF="und">Satchel, Walking to, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid127">
+            <CVE_VALUE LANG_REF="und">Satchel, Walking to, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid128">
+            <CVE_VALUE LANG_REF="und">Satchel, Grabbing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid129">
+            <CVE_VALUE LANG_REF="und">Satchel, Grabbing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid130">
+            <CVE_VALUE LANG_REF="und">Satchel, Walking, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid131">
+            <CVE_VALUE LANG_REF="und">Satchel, Walking, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid132">
+            <CVE_VALUE LANG_REF="und">Satchel, Holding Up, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid133">
+            <CVE_VALUE LANG_REF="und">Satchel, Holding Up, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid134">
+            <CVE_VALUE LANG_REF="und">Satchel, Placing, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid135">
+            <CVE_VALUE LANG_REF="und">Satchel, Placing, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid136">
+            <CVE_VALUE LANG_REF="und">Satchel, Satchel Drop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid137">
+            <CVE_VALUE LANG_REF="und">Satchel, Pickup Satchel, S</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid138">
+            <CVE_VALUE LANG_REF="und">Satchel, Pickup Satchel, F</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Twists">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Twist R, Not Seated, &lt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Twist R, Not Seated, &gt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">Twist L, Not Seated, &lt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE LANG_REF="und">Twist Left, Not Seated, &gt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">Twist R, Seated, &lt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE LANG_REF="und">Twist R, Seated, &gt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE LANG_REF="und">Twist L, Seated, &lt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE LANG_REF="und">Twist L, Seated, &gt;45º</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Cued Behaviors">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Rigidity, RUE</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Rigidity, LUE</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">Rigidity, RLE</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE LANG_REF="und">Rigidity, LLE</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">Rigidity, Neck</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE LANG_REF="und">Finger Tapping, RH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE LANG_REF="und">Finger Tapping, LH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE LANG_REF="und">Fist Open/Close, RH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE LANG_REF="und">Fist Open/Close, LH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE LANG_REF="und">Pro/Sup, RH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE LANG_REF="und">Pro/Sup, LH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE LANG_REF="und">Toe Tapping, RF</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE LANG_REF="und">Toe Tapping, LF</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE LANG_REF="und">Stomping, RF</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE LANG_REF="und">Stomping, LF</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE LANG_REF="und">Arising from Chair</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid16">
+            <CVE_VALUE LANG_REF="und">Gait</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid17">
+            <CVE_VALUE LANG_REF="und">Postural Stability</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid18">
+            <CVE_VALUE LANG_REF="und">Postural Tremor, RH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid19">
+            <CVE_VALUE LANG_REF="und">Postural Tremor, LH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid20">
+            <CVE_VALUE LANG_REF="und">Kinetic Tremor, RH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid21">
+            <CVE_VALUE LANG_REF="und">Kinetic Tremor, LH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid22">
+            <CVE_VALUE LANG_REF="und">Rest Tremor</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Posture, Gait, and Transitions">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE LANG_REF="und">Lying, Prone</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE LANG_REF="und">Lying, Supine</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE LANG_REF="und">Lying, Side</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE LANG_REF="und">Sitting</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE LANG_REF="und">Standing, One Foot</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE LANG_REF="und">Standing, Two Feet</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE LANG_REF="und">Assisted Stand, One Foot</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE LANG_REF="und">Assisted Stand, Two Feet</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE LANG_REF="und">Walking, Normal Gait, 1-3 Steps</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE LANG_REF="und">Walking, Normal Gait, 4-9 Steps</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE LANG_REF="und">Walking, Normal Gait, 10+ Steps</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE LANG_REF="und">Walking, Impaired Gait PS, 1-3 Steps</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE LANG_REF="und">Walking, Impaired Gait PS, 4-9 Steps</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE LANG_REF="und">Walking, Impaired Gait PS 10+ Steps</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE LANG_REF="und">Sit-to-Stand</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE LANG_REF="und">Stand-to-Sit</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid16">
+            <CVE_VALUE LANG_REF="und">Sit-to-Lie</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid17">
+            <CVE_VALUE LANG_REF="und">Lie-to-Sit</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid18">
+            <CVE_VALUE LANG_REF="und">Lie-to-Stand</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid19">
+            <CVE_VALUE LANG_REF="und">Stand-to-Lie</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid20">
+            <CVE_VALUE LANG_REF="und">Fall-from-Sitting</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid21">
+            <CVE_VALUE LANG_REF="und">Fall-from-Standing</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid22">
+            <CVE_VALUE LANG_REF="und">PGT N/A, Ambiguous</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid23">
+            <CVE_VALUE LANG_REF="und">PGT N/A, Visibility</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>

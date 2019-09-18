@@ -1,0 +1,5 @@
+SADL Timeline		0.0	00:00:00:00	123.533	00:02:03:16	123.533	00:02:03:16	Satchel
+SADL Activities		0.0	00:00:00:00	0.966	00:00:00:28	0.966	00:00:00:28	Satchel, Reach for Satchel, S
+SADL Activities		0.966	00:00:00:28	3.766	00:00:03:22	2.8	00:00:02:23	Satchel, Grabbing, S
+SADL Activities		3.766	00:00:03:22	31.7	00:00:31:20	27.934	00:00:27:27	Satchel, Walking, S
+SADL Activities		31.7	00:00:31:20	123.533	00:02:03:16	91.833	00:01:31:24	 Satchel, Holding Up, S

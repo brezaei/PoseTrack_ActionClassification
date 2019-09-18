@@ -1,0 +1,18 @@
+Posture, Gait, and Transitions		0.0	1.866	1.866	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		1.866	2.766	0.9	Standing, Two Feet
+Posture, Gait, and Transitions		2.766	8.833	6.067	Walking, Impaired Gait PS, 4-9 Steps
+Posture, Gait, and Transitions		8.833	25.866	17.033	PGT N/A, Visibility
+Posture, Gait, and Transitions		25.866	35.933	10.067	Sitting
+Posture, Gait, and Transitions		35.933	36.166	0.233	PGT N/A, Visibility
+Posture, Gait, and Transitions		36.166	41.933	5.767	Sitting
+Posture, Gait, and Transitions		41.933	42.066	0.133	PGT N/A, Visibility
+Posture, Gait, and Transitions		42.066	69.033	26.967	Sitting
+Posture, Gait, and Transitions		69.033	69.166	0.133	PGT N/A, Visibility
+Posture, Gait, and Transitions		69.166	85.1	15.934	Sitting
+Turns		2.6	4.133	1.533	R 90<180º
+Turns		4.8	5.333	0.533	L <90º
+Turns		6.166	7.966	1.8	R <90º
+Obstruction		35.933	36.166	0.233	Person
+Obstruction		41.933	42.066	0.133	Person
+Obstruction		69.033	69.166	0.133	Person
+Tech, Frozen		12.8	25.866	13.066	Switching Devices

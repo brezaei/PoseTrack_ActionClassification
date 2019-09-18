@@ -1,0 +1,51 @@
+SADL Timeline	1329.2	1380.3	51.1	Tying Laces
+SADL Timeline	1400.533	1537.5	136.967	Writing
+SADL Timeline	1554.3	1587.4	33.1	Paper folding
+SADL Timeline	1603.866	1608.266	4.4	Lanyard
+SADL Timeline	1608.266	1613.2	4.934	Bracelet
+SADL Timeline	1613.266	1616.233	2.967	Lanyard
+SADL Timeline	1622.8	1640.566	17.766	Remote Control
+SADL Timeline	1649.4	1743.8	94.4	Bottle
+SADL Activities	1329.2	1332.533	3.333	Tying Laces, Right Shoe, F
+SADL Activities	1332.533	1336.633	4.1	Tying Laces, Left Shoe, F
+SADL Activities	1337.233	1360.433	23.2	Tying Laces, Right Shoe, S
+SADL Activities	1360.6	1380.3	19.7	Tying Laces, Left Shoe, S
+SADL Activities	1400.533	1401.5	0.967	Writing, Reach for Pen, S
+SADL Activities	1401.5	1401.833	0.333	Writing, Pickup Pen, S
+SADL Activities	1417.933	1470.433	52.5	Writing, Sentence, S
+SADL Activities	1472.366	1472.7	0.334	Writing, Reach for Pen, S
+SADL Activities	1472.7	1473.066	0.366	Writing, Pickup Pen, S
+SADL Activities	1489.433	1537.5	48.067	Writing, Cursive, S
+SADL Activities	1554.3	1587.4	33.1	Paper Folding, S
+SADL Activities	1603.866	1604.766	0.9	Lanyard, Reach for Lanyard, S
+SADL Activities	1604.766	1606.433	1.667	Lanyard, Pickup Lanyard, S
+SADL Activities	1606.433	1608.266	1.833	Lanyard, Donning, S
+SADL Activities	1608.266	1608.566	0.3	Bracelet, Reach for Bracelet, S
+SADL Activities	1608.566	1609.533	0.967	Bracelet, Pickup Bracelet, S
+SADL Activities	1609.533	1610.8	1.267	Bracelet, Donning, S
+SADL Activities	1611.1	1613.2	2.1	Bracelet, Removing, S
+SADL Activities	1613.266	1613.633	0.367	Lanyard, Reach for Lanyard, S
+SADL Activities	1613.633	1616.233	2.6	Lanyard, Removing, S
+SADL Activities	1622.8	1623.9	1.1	Remote, Reach for Remote, S
+SADL Activities	1623.9	1625.366	1.466	Remote, Pickup Remote, S
+SADL Activities	1631.1	1640.566	9.466	Remote, Buttons, S
+SADL Activities	1649.4	1650.2	0.8	Bottle, Reach for Bottle, S
+SADL Activities	1658.266	1658.4	0.134	Bottle, Pickup Bottle, S
+SADL Activities	1658.4	1660.7	2.3	Bottle, Shaking, S
+SADL Activities	1661.0	1665.666	4.666	Bottle, Opening, S
+SADL Activities	1665.666	1667.9	2.234	Bottle, Drinking, S
+SADL Activities	1668.466	1671.033	2.567	Bottle, Closing, S
+SADL Activities	1689.833	1692.366	2.533	Bottle, Opening, S
+SADL Activities	1692.733	1700.066	7.333	Bottle, Pouring Cup, F
+SADL Activities	1700.233	1701.166	0.933	Bottle, Reach for Cup, S
+SADL Activities	1701.266	1701.366	0.1	Bottle, Pickup Cup, S
+SADL Activities	1701.366	1709.033	7.667	Bottle, Cup Drinking, S
+SADL Activities	1710.4	1711.066	0.666	Bottle, Reach for Bottle, S
+SADL Activities	1711.066	1713.7	2.634	Bottle, Closing, S
+SADL Activities	1730.0	1731.6	1.6	Bottle, Opening, S
+SADL Activities	1731.766	1735.866	4.1	Bottle, Pouring Bowl,  S
+SADL Activities	1735.866	1737.733	1.867	Bottle, Closing, S
+SADL Activities	1738.0	1738.7	0.7	Bottle, Reach for Spoon, S
+SADL Activities	1738.7	1738.866	0.166	Bottle, Pickup Spoon, S
+SADL Activities	1738.866	1743.8	4.934	Bottle, Spoon Drinking, S
+SADL Events	1692.733	1693.466	0.733	Water Spill

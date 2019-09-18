@@ -1,0 +1,44 @@
+
+
+After locating the target human actor, providing a compact yet discriminative pose evolution feature representation for each action clip plays an essential role in recognizing different actions. To achieve this, we first provide a compact spatio-temporal representation of the target actor pose evolution in \secref{potion} for each video clip inspired from PoTion pose motion representation introduced in \cite{choutas2018potion}. Then, we use the tracked pose evolution to recognize five categories of human actions: sitting, sit-to-stand, standing, walking, and stand-to-sit in \secref{network}.
+
+\subsection{Pose Evolution Representation}
+\label{sec:potion}
+By using pose of the target human actor for each frame of the video clip provided by the pose tracking stage, we create a fixed-size pose evolution representation by temporally aggregating these pose maps. Target actor pose tracking in preceding stages gives us locations of the body joints of the target human actor (e.g. the subject) in each frame of the video clip. We first generate joint heatmaps from given keypoint positions by locating a Gaussian kernel around each keypoint. These heatmaps are gray scale images showing the probability of the estimated location for each body joint. The pose evolution maps are created based on these joint heatmaps. 
+
+As illustrated in \figref{poseEvolution}, in order to capture the evolution of pose maps in the time frame of a video clip, after generating pose heatmaps for the target actor in a video frame, we colorize them according to their relative time in the video. In other words, each gray scale joint heatmap of dimension $H \times W$ generated for the current frame at time $t$ is transformed into a C-channel color image of $C \times H \times W$. Indicated in \eqnref{poseEv}, this transformation is done by replicating the original heatmaps C times and multiplying values of each channel with a linear function of the relative time of the current frame in the video clip. 
+
+\peseEvolution
+
+\begin{align} \label{eqn:poseEv}
+\begin{split}
+   & Je_i(j, x, y) = \frac{\sum_{t=0}^{T-1} JH_i^t(x, y) \times oc_j(t)}{max_{x, y} \sum_{t=0}^{T-1} JH_i^t(x, y) \times oc_j(t) } \\
+   & \text{for } i \in \{1, 2, ..., 14\},~~ j \in \{1, ..., C \} 
+   %& Pe = concatenate(Je_1, Je_2, ..., Je_{14})
+\end{split}  
+\end{align}
+%
+where $JH_i^t(x, y)$ designates the estimated joint heatmap for joint number $i$ of target actor in a given frame number $t$. $oc_j(t)$ is the linear time encoding function for channel $j$ evaluated at time $t$. $Je_i$ is the joint evolution map for each joint $i$. The final pose evolution map, $Pe$ is attained by concatenating all calculated joint evolution maps, as $Pe = concatenate(Je_1, Je_2, ..., Je_{14})$, where we have 14 joints.
+
+In order to calculate the time encoding function for a C-channel pose evolution map, the video clip time length $T$ is divided into $C-1$ intervals with duration $l=\frac{T}{C}$ each. For each given frame at time $t$ that sits in $k$th interval which $k=\lceil \frac{t}{T} \rceil$, $oc_j(t)$ is defined as follows:
+\begin{align} \label{eqn:colorFun}
+     oc_j(t) = \left \{
+      \begin{tabular} {ll}
+          $\frac{(-t + \frac{kT}{C-1})}{l} $,  & for $j=k$\\
+          $\frac{(t - \frac{T(k-1)}{C-1})}{l}$, & for $j=k+1$ \\
+          $0$, & otherwise.
+      \end{tabular}
+     \right.
+\end{align}
+
+\ColorCode
+\figref{ColorCode} illustrates the time encoding functions that are defined based on the \eqnref{colorFun} for 3-channel colorization used in our pose evolution representation. After creating the pose evolution maps, we augment them by adding white noise to our representation to train the action classification network. 
+%In our experimentation, we reported the influence of using different numbers of channels for encoding the time in the pose evolution map on action recognition network performance.
+
+\subsection{Classification Network}
+\label{sec:network}
+We trained a CNN for classifying different actions using pose evolution representations. Since our representation is very sparse in space and has no contextual information of the raw video frames, the network does not need to be very deep or pre-trained to be able to classify different actions from pose evolution maps. We used the network architecture illustrated in \figref{ActionNet} consisting of $4$ fully convolutional layers (FCN), and one fully connected layer (FC) as the classifier. The input of the first layer is the pose evolution map of size $14~C \times H \times W$, where 14 is the number of body joints that are used in our feature representation. In this study, we used $C=3$ as the number of channels for encoding the time information into our feature representation. In \secref{actionresult}, we explored the effect of the number of channels in the performance of the action classification network.
+
+The action classification network includes two blocks of convolutional layers, a global average pooling layer, and a fully connected layer with a Softmax loss function as the classification layer. Each block contains two convolution layers with filter sizes of $3 \times 3 \times 128$, and $3 \times 3 \times 256$, respectively. The first convolution layer in each block is designed with a stride of 2 pixels and a second layer with a stride of 1 pixel. All the convolutional layers are followed by a rectified linear unit (ReLU), batch normalization, and dropout. We investigated the performance of several variations of this architecture on action classification in \secref{experiment}. 
+
+\ActionNet

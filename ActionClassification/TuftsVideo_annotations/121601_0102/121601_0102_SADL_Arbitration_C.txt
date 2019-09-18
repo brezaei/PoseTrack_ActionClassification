@@ -1,0 +1,83 @@
+SADL Timeline	1848.7	1904.366	55.666	Tying Laces
+SADL Timeline	1937.9	2052.3	114.4	Writing
+SADL Timeline	2070.833	2104.266	33.433	Paper folding
+SADL Timeline	2121.9	2126.0	4.1	Lanyard
+SADL Timeline	2126.0	2131.3	5.3	Bracelet
+SADL Timeline	2131.3	2134.233	2.933	Lanyard
+SADL Timeline	2140.533	2165.233	24.7	Remote Control
+SADL Timeline	2183.8	2290.133	106.333	Bottle
+SADL Timeline	2325.966	2401.933	75.967	Lab Coat
+SADL Timeline	2415.3	2483.8	68.5	Sweater
+SADL Timeline	2501.766	2510.2	8.434	Door
+SADL Timeline	2579.2	2598.6	19.4	Book
+SADL Timeline	2614.7	2740.1	125.4	Satchel
+SADL Activities	1848.7	1860.333	11.633	Tying Laces, Right Shoe, F
+SADL Activities	1861.933	1880.166	18.233	Tying Laces, Left Shoe, S
+SADL Activities	1881.866	1904.366	22.5	Tying Laces, Right Shoe, S
+SADL Activities	1937.9	1939.133	1.233	Writing, Reach for Pen, S
+SADL Activities	1939.133	1939.4	0.267	Writing, Pickup Pen, S
+SADL Activities	1941.966	1977.633	35.667	Writing, Sentence, S
+SADL Activities	1998.1	1998.733	0.633	Writing, Reach for Pen, S
+SADL Activities	1998.733	1999.1	0.367	Writing, Pickup Pen, S
+SADL Activities	2003.666	2052.3	48.634	Writing, Cursive, S
+SADL Activities	2070.833	2104.266	33.433	Paper Folding, S
+SADL Activities	2121.9	2123.333	1.433	Lanyard, Reach for Lanyard, S
+SADL Activities	2123.333	2124.666	1.333	Lanyard, Pickup Lanyard, S
+SADL Activities	2124.666	2126.0	1.334	Lanyard, Donning, S
+SADL Activities	2126.0	2126.533	0.533	Bracelet, Reach for Bracelet, S
+SADL Activities	2126.533	2127.033	0.5	Bracelet, Pickup Bracelet, S
+SADL Activities	2127.033	2128.433	1.4	Bracelet, Donning, S
+SADL Activities	2129.5	2131.3	1.8	Bracelet, Removing, S
+SADL Activities	2131.3	2131.966	0.666	Lanyard, Reach for Lanyard, S
+SADL Activities	2131.966	2134.233	2.267	Lanyard, Removing, S
+SADL Activities	2140.533	2141.8	1.267	Remote, Reach for Remote, S
+SADL Activities	2151.066	2151.333	0.267	Remote, Pickup Remote, S
+SADL Activities	2152.5	2165.233	12.733	Remote, Buttons, S
+SADL Activities	2183.8	2184.333	0.533	Bottle, Reach for Bottle, S
+SADL Activities	2184.333	2184.466	0.133	Bottle, Pickup Bottle, S
+SADL Activities	2184.633	2187.166	2.533	Bottle, Shaking, S
+SADL Activities	2187.866	2193.4	5.534	Bottle, Opening, S
+SADL Activities	2195.233	2197.8	2.567	Bottle, Drinking, S
+SADL Activities	2200.066	2203.166	3.1	Bottle, Closing, S
+SADL Activities	2223.766	2224.9	1.134	Bottle, Reach for Bottle, S
+SADL Activities	2224.9	2229.166	4.266	Bottle, Opening, S
+SADL Activities	2229.833	2230.3	0.467	Bottle, Reach for Bottle, S
+SADL Activities	2230.3	2230.466	0.166	Bottle, Pickup Bottle, S
+SADL Activities	2230.733	2234.466	3.733	Bottle, Pouring Cup, S
+SADL Activities	2235.266	2236.066	0.8	Bottle, Reach for Cup, S
+SADL Activities	2236.066	2236.233	0.167	Bottle, Pickup Bottle, S
+SADL Activities	2236.233	2246.233	10.0	Bottle, Cup Drinking, S
+SADL Activities	2267.366	2268.133	0.767	Bottle, Reach for Bottle, S
+SADL Activities	2268.133	2268.466	0.333	Bottle, Pickup Bottle, S
+SADL Activities	2268.666	2272.666	4.0	Bottle, Pouring Bowl,  S
+SADL Activities	2275.4	2275.866	0.466	Bottle, Reach for Spoon, S
+SADL Activities	2275.866	2276.1	0.234	Bottle, Pickup Spoon, S
+SADL Activities	2276.1	2282.266	6.166	Bottle, Spoon Drinking, S
+SADL Activities	2287.233	2290.133	2.9	Bottle, Closing, S
+SADL Activities	2325.966	2326.7	0.734	Lab Coat, Reach for Lab Coat, S
+SADL Activities	2326.7	2327.6	0.9	Lab Coat, Grabbing, S
+SADL Activities	2327.6	2346.766	19.166	Lab Coat, Donning, S
+SADL Activities	2346.766	2376.5	29.734	Lab Coat, Buttoning, S
+SADL Activities	2378.933	2389.366	10.433	Lab Coat, Unbuttoning, S
+SADL Activities	2389.5	2396.566	7.066	Lab Coat, Removing, S
+SADL Activities	2396.566	2401.933	5.367	Lab Coat, Returning, S
+SADL Activities	2415.3	2416.433	1.133	Sweater, Reach for Sweater, S
+SADL Activities	2416.433	2417.433	1.0	Sweater, Grabbing, S
+SADL Activities	2417.433	2454.3	36.867	Sweater, Donning, S
+SADL Activities	2454.3	2458.9	4.6	Sweater, Zipping, S
+SADL Activities	2465.633	2468.6	2.967	Sweater, Unzipping, S
+SADL Activities	2468.6	2475.566	6.966	Sweater, Removing, S
+SADL Activities	2479.266	2483.8	4.534	Sweater, Returning, S
+SADL Activities	2501.766	2504.433	2.667	Door, Opening, S
+SADL Activities	2506.933	2510.2	3.267	Door, Closing, S
+SADL Activities	2579.2	2580.666	1.466	Book, Walking To, S
+SADL Activities	2580.666	2581.7	1.034	Book, Reach for Book, S
+SADL Activities	2581.7	2581.966	0.266	Book, Grabbing, S
+SADL Activities	2581.966	2596.9	14.934	Book, Walking, S
+SADL Activities	2596.9	2598.6	1.7	Book, Placing, S
+SADL Activities	2614.7	2616.166	1.466	Satchel, Walking to, S
+SADL Activities	2616.166	2617.0	0.834	Satchel, Reach for Satchel, S
+SADL Activities	2617.0	2618.9	1.9	Satchel, Grabbing, S
+SADL Activities	2618.9	2638.7	19.8	Satchel, Walking, S
+SADL Activities	2638.766	2732.193	93.427	Satchel, Holding Up, S
+SADL Activities	2732.193	2740.1	7.907	Satchel, Placing, S

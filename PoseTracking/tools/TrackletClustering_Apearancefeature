@@ -1,0 +1,652 @@
+# coding: utf-8
+##############################################################
+# Author: Behnaz Rezaei
+#         October 2018
+#         behnazrezaei65@gmail.com
+# some of the function are originally borrowed from other resources
+# referenced in the corresponding paper with some modifications
+# to our specific case
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+##############################################################
+
+"""
+usage sample: python  TrackletClustering_Appearancefeature.py -c ../configs/2d_best/01_R101_best_hungarian-4GPU.yaml
+                                                              -subj '03121601001'
+                                                              -v 1
+"""
+# import required packages
+import sys
+import os
+import io
+import base64
+sys.path.append('../lib/')
+import cv2 as cv
+import cPickle as pickle
+import os.path as osp
+import numpy as np
+import utils.vis as vis_utils
+import feature.FeatureExtraction as feature
+from tqdm import tqdm
+#import matplotlib.pyplot as plt
+#import matplotlib.colors as colors
+#from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+#from matplotlib import animation
+from mpl_toolkits.mplot3d import Axes3D
+import pandas as pd
+import pylab
+import math
+from skimage.feature import hog, local_binary_pattern
+from skimage.transform import resize
+from skimage import exposure, data
+from skimage.io import imsave
+from sklearn.manifold import TSNE
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import sklearn.cluster as cluster
+from PIL import Image
+import time
+import pylab
+import mpld3
+import argparse
+import yaml
+from copy import deepcopy
+from termcolor import colored
+class color:
+   PURPLE = '\033[95m'
+   CYAN = '\033[96m'
+   DARKCYAN = '\033[36m'
+   BLUE = '\033[94m'
+   GREEN = '\033[92m'
+   YELLOW = '\033[93m'
+   RED = '\033[91m'
+   BOLD = '\033[1m'
+   UNDERLINE = '\033[4m'
+   END = '\033[0m'
+
+print(color.BOLD + color.YELLOW+"+++++++++Required modules imported" + color.END)
+def parse_args():
+    parser = argparse.ArgumentParser(description='Run Clustering on the Detect&Track results to '
+                                                 'merge the tracklets associated with the same identity')
+    parser.add_argument(
+        '--cfg', '-c', dest='cfg_file', required=True,
+        help='Config file to run')
+    parser.add_argument(
+        '--subj_id', '-subj', dest='subj_id', type=str,
+        help='subject id which is the name of the folder related to each subject',
+        required=True)
+    parser.add_argument(
+        '--visit_no', '-v', dest='visit_no', type=int,
+        help='integer number showing the visit number', required=True)
+    parser.add_argument(
+        '--verify', '-verify', dest='verify', help='if you want to do verification', default=False)
+    parser.add_argument(
+        '--gt_path', '-gt', dest='gt_path', help='address to the ground truth folder',
+        default='../ground_truth/TuftsVideos', required='--verify' in sys.argv)
+    parser.add_argument(
+        '--base_path', '-bpth', dest='base_path', help='base path to the Detect&Track detection results for all videos',
+        default='../../PoseEstimation/DetectAndTrack/DetectAndTrack/outputs/TuftsVideo/HUBB121601_Tufts_Kinect_Videos_Flipped')
+    parser.add_argument(
+        '--base_path_vid', '-vpth', dest='base_path_vid', help='base path to the videos to be processed',
+        default='/data/BehnazData/TuftsVideo', required=False)
+    parser.add_argument(
+        'opts', help='See lib/core/config.py for all options', default=None,
+        nargs=argparse.REMAINDER)
+    if len(sys.argv) == 1:
+        parser.print_help()
+        sys.exit(1)
+    return parser.parse_args()
+# Definition of required functions and variables
+def _id_or_index(ix, val):
+    if len(val) == 0:
+        return val
+    else:
+        return val[ix]
+
+def robust_pickle_dump(data_dict, file_name):
+    file_name = os.path.abspath(file_name)
+    with open(file_name, 'wb') as f:
+        pickle.dump(data_dict, f, pickle.HIGHEST_PROTOCOL)
+
+def _vis_single_frame(im, cls_boxes_i, cls_segms_i, cls_keyps_i, cls_tracks_i,
+                      thresh, show_box=False, show_class=False, show_id=False, show_conf=False):
+    """
+    input:
+    :param im: input image as narray
+    :param cls_boxes_i: a [N by 5] list containing bounding boxes detected in the image in the form of [x0, y0, x1, y1, conf]
+    :param cls_segms_i: segments in the image
+    :param cls_keyps_i: a [N by (4, 17)] keypoints detected in the image with the for of nparray[X,Y,scoreX,scoreY]
+    :param cls_tracks_i: a list containing the track id for each bounding box
+    :param thresh: floating number defining the threshold of confidence level for showing bounding boxes
+    :param show_box: boolian parameter to decide showing bounding boxes
+    :param show_class: boolian parameter to decide showing class type
+    :param show_id: boolian parameter to decide showing track id
+    :param show_conf: boolian parameter to decide showing confidence level
+    :return:
+    image with visualizations
+    """
+    res = vis_utils.vis_one_image_opencv(
+        im, cls_boxes_i,
+        segms=cls_segms_i, keypoints=cls_keyps_i,
+        tracks=cls_tracks_i, thresh=thresh, kp_thresh=2.3,
+        show_box=show_box, show_class=show_class, show_id=show_id, show_conf=show_conf, linewidth=4)
+    if res is None:
+        return im
+    return res
+
+
+def _generate_visualizations(im, ix, all_boxes, all_keyps, all_tracks, thresh=0.95):
+    """
+    receiving all the detection for a collection of images, reads detections for each single image and
+    creates visualizations
+    :param im: input image
+    :param ix: index of the input image in the video
+    :param all_boxes: all the bounding boxes detected from video
+    :param all_keyps: all keypoints detected from video
+    :param all_tracks: all the associated track ids to the detections in the video
+    :param thresh: threshold for showing the detection in images
+    :return: an image with visualized detections
+    """
+    cls_boxes_i = [
+        _id_or_index(ix, all_boxes[j]) for j in range(len(all_boxes))]
+    if all_keyps is not None:
+        cls_keyps_i = [
+            _id_or_index(ix, all_keyps[j]) for j in range(len(all_keyps))]
+    else:
+        cls_keyps_i = None
+    if all_tracks is not None:
+        cls_tracks_i = [
+            _id_or_index(ix, all_tracks[j]) for j in range(len(all_tracks))]
+    else:
+        cls_tracks_i = None
+    pred = _vis_single_frame(
+        im.copy(), cls_boxes_i, None, cls_keyps_i, cls_tracks_i, thresh)
+    return pred
+
+
+def find_element_in_list(element, list_element):
+    """
+    finding index of first appearance of an element in a given list
+    if the specified element does not exist returns None
+    inputs:
+        element: query element to be found
+        list_element: input list for searching the query
+    outputs:
+        index_element: index of the query elemnt in the list
+    """
+    try:
+        index_element = list_element.index(element)
+        return index_element
+    except ValueError:
+        return None
+
+
+# finding the bounding boxes of the specified target
+def _get_target_tracklet(track_id, all_boxes, all_tracks, st_fr=None):
+    """
+    finding the target tracklet which is the list of the bounding boxes in consecutive
+    frames which locate same person by given the track_id of the target
+    input:
+        st_fr: start frame of the target appearance
+        track_id: track ID of the target
+        all_boxes: the list of the all detected bounding boxes with the human detection person
+        all_tracks: list of all the track IDs for the detected bounding boxes
+    output:
+        end_fr: frame number of the end of a tracklet
+        st_fr: frame number of the start of a tracklet
+        target_box: list of the bounding boxes surrounding the target
+
+    """
+    if st_fr is None:
+        search = True
+        st_fr = 0
+        while search:
+            indx = find_element_in_list(track_id, all_tracks[st_fr])
+            if indx is None:
+                st_fr += 1
+            else:
+                search = False
+    fr_last = len(all_tracks) - 1
+    count = st_fr
+    exist = True
+    target_box = []
+    while exist:
+        indx = find_element_in_list(track_id, all_tracks[count])
+        if indx is not None:
+            target_box.append(all_boxes[count][indx])
+            if count < fr_last:
+                count += 1
+            elif count == fr_last:
+                end_fr = count
+                exist = False
+        else:
+            end_fr = count
+            exist = False
+    return end_fr, st_fr, target_box
+
+
+def _show_visualizations(video, all_boxes, all_keyps, all_tracks, thresh=0.95):
+    """
+    visualize tracking and pose estimation results on the video
+    input:
+        video : path to the video to be shown
+        all boxes: a list containing the bounding box locations in each frame
+    """
+    fr_cnt = 0
+    vid_cap = cv.VideoCapture(osp.join(vid_path, vid_name))
+    # fps = vid_cap.get(cv.CV_CAP_PROP_FPS)
+    while vid_cap.isOpened():
+        success, image = vid_cap.read()
+        fr_cnt += 1
+        # cur_time = vid_cap.get(cv.CAP_PROP_POS_MSEC)
+        vis_img = _generate_visualizations(image, fr_cnt, dets['all_boxes'], dets['all_keyps'], dets['all_tracks'])
+        # show the frames
+        cv.imshow("Visualized", vis_img)
+        key = cv.waitKey(1) & 0xFF
+        # if the `q` key was pressed, break from the loop
+        if key == ord("q"):
+            break
+    # do a bit of cleanup
+    print("[INFO] cleaning up...")
+    cv.destroyAllWindows()
+    vid_cap.release()
+    return fr_cnt
+
+
+# defining the Local Binary Pattern(LBF) feature extracter class
+
+class _local_binary_feature:
+    def __init__(self, num_points, radius):
+        # store the number of points and radius
+        self.num_points = num_points
+        self.radius = radius
+
+    def describe(self, image, eps=1e-7):
+        # compute local binary pattern representation
+        # of the input, and then use the LBP representation
+        # to build histogram of representations
+        if len(image.shape) > 2:
+            image = cv.cvtColor(image, cv.COLOR_RGB2GRAY)
+        lbp = local_binary_pattern(image, self.num_points, self.radius, method='uniform')
+        (hist, _) = np.histogram(lbp.ravel(), bins=np.arange(0, self.num_points + 3),
+                                 range=(0, self.num_points + 2))
+
+        # normalize the histogram
+        hist = hist.astype("float")
+        hist /= (hist.sum() + eps)
+
+        return hist
+
+
+def _visualize_scatter_with_images(x_2d_data, images, figsize=(30, 30), image_zoom=1):
+    """
+    shows a scatter plot of 2d feature vector in a way that each point is marked with its corresponding image
+    :param x_2d_data: 2d data to be shown in scatter plot
+    :param images: images associated with each data point
+    :param figsize: size of the plot
+    :param image_zoom: zooming of the original image to be used as marker
+    :return: scatter plot of the data with image markers
+    """
+    fig, ax = plt.subplots(figsize=figsize)
+    artists = []
+    for xy, i in zip(x_2d_data, images):
+        x0, y0 = xy
+        img = OffsetImage(i, zoom=image_zoom)
+        ab = AnnotationBbox(img, (x0, y0), xycoords='data', frameon=False)
+        artists.append(ax.add_artist(ab))
+    ax.update_datalim(x_2d_data)
+    ax.autoscale()
+    plt.show()
+    """
+class NumpyEncoder(json.JSONEncoder):
+    def default(self, obj):
+        import numpy as np
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return json.JSONEncoder.default(self, obj)
+from mpld3 import _display
+_display.NumpyEncoder = NumpyEncoder  
+"""
+
+
+def boxes_area(boxes):
+    """
+    calculating the area of the input bounding boxes
+    :param boxes: the list of bounding boxes in the form [x0, y0, x1, y1, conf(optional)]
+    :return: the area calculated for each bounding box in the list
+    """
+    w = (boxes[:, 2] - boxes[:, 0] + 1)
+    h = (boxes[:, 3] - boxes[:, 1] + 1)
+    areas = w * h
+    assert np.all(areas >= 0), 'Negative areas founds'
+    return areas
+
+
+def bbox_overlaps(boxes, query_boxes):
+    """
+    Parameters
+    ----------
+    boxes: (N, 4) ndarray of float
+    query_boxes: (K, 4) ndarray of float
+    Returns
+    -------
+    overlaps: (N, K) ndarray of overlap between boxes and query_boxes
+    """
+    N = boxes.shape[0]
+    # print('N={}'.format(N))
+    K = query_boxes.shape[0]
+    # print('K={}'.format(K))
+    overlaps = np.zeros((N, K), dtype=DTYPE)
+    for k in range(K):
+        box_area = (
+                (query_boxes[k, 2] - query_boxes[k, 0] + 1) *
+                (query_boxes[k, 3] - query_boxes[k, 1] + 1)
+        )
+        for n in range(N):
+            iw = (
+                    min(boxes[n, 2], query_boxes[k, 2]) -
+                    max(boxes[n, 0], query_boxes[k, 0]) + 1
+            )
+            if iw > 0:
+                ih = (
+                        min(boxes[n, 3], query_boxes[k, 3]) -
+                        max(boxes[n, 1], query_boxes[k, 1]) + 1
+                )
+                if ih > 0:
+                    ua = float(
+                        (boxes[n, 2] - boxes[n, 0] + 1) *
+                        (boxes[n, 3] - boxes[n, 1] + 1) +
+                        box_area - iw * ih
+                    )
+                    overlaps[n, k] = iw * ih / ua
+    return overlaps
+
+# defining some global variables
+DTYPE = np.float32
+height = 1080  # frame height in pixel
+width = 1920  # frame width in pixel
+
+# Creating a dictionary out of all the pickle file names resulted from Detect&Track algorithm
+# keys are the patient identity and value is the name of the saved output
+# key is a list of two string, the first string is for the first visit and second string is for the second visit
+all_det_track_results = {'03121601001':['Kinect_1484230300411_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1484236642988_Video_flipped_detections_withTracks.pkl'],
+                         '03121601002':['Kinect_1484837025135_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1484852850634_Video_flipped_detections_withTracks.pkl'],
+                         '03121601003':['Kinect_1485442263970_Fixed_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1485453235022_Video_flipped_detections_withTracks.pkl'],
+                         '03121601004':['Kinect_1486044609777_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1486049379590_Video_flipped_detections_withTracks.pkl'],
+                         '03121601005':['Kinect_1486055718051_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1486062723338_Video_flipped_detections_withTracks.pkl'],
+                         '03121601006':['Kinect_1487170521651_Fixed_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1487252582676_Fixed_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601007':['Kinect_1487773684672_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1488375395995_Fixed_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601008':['Kinect_1487859349689_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1487864851230_Video_flipped_detections_withTracks.pkl'],
+                         '03121601009':['Kinect_1488985159337_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1488991782221_Video_flipped_detections_withTracks.pkl'],
+                         '03121601010':['Kinect_1489081164119_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1489582979282_Video_flipped_detections_withTracks.pkl'],
+                         '03121601011':['Kinect_1489410472438_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1489416963560_Video_flipped_detections_withTracks.pkl'],
+                         '03121601012':['Kinect_1490279720993_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1490299676346_Video_flipped_detections_withTracks.pkl'],
+                         '03121601013':['Kinect_1489586406980_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1489596563256_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601014':['Kinect_1490793487534_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1491481607487_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601015':['Kinect_1490879543456_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1490885684191_video_Flipped_detections_withTracks.pkl'],
+                         '03121601016':['Kinect_1491399264372_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1491408408518_Video_flipped_detections_withTracks.pkl'],
+                         '03121601017':['Kinect_1491571272034_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1491576389630_Video_flipped_detections_withTracks.pkl'],
+                         '03121601018':['Kinect_1492697256228_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1493126049741_Video_flipped_detections_withTracks.pkl'],
+                         '03121601019':['Kinect_1493905943020_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1494422856653_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601020':['Kinect_1492786250052_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1492792155821_Video_flipped_detections_withTracks.pkl'],
+                         '03121601021':['Kinect_1493214639781_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1493222216696_Video_flipped_detections_withTracks.pkl'],
+                         '03121601022':['Kinect_1495028284074_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1495037457240_Video_flipped_detections_withTracks.pkl'],
+                         '03121601023':['Kinect_1495638523488_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1495649327569_Video_flipped_detections_withTracks.pkl'],
+                         '03121601024':['Kinect_1495638523488_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1495646631951_Video_flipped_detections_withTracks.pkl'],
+                         '03121601025':['Kinect_1495724260698_Video_flipped_detections_withTracks.pkl',
+                                        'Kinect_1496323552600_Video_flipped_detections_withTracks.pkl'],
+                         '03121601027':['Kinect_1503497547252_Video_Flipped_detections_withTracks.pkl',
+                                        'Kinect_1504101708237_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601028': ['Kinect_1503581189725_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1504181872815_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601029': ['Kinect_1504627411616_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1504635058283_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601030': ['Kinect_1507211606614_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1507220967931_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601031': ['Kinect_1508335131827_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1508348636573_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601032': ['Kinect_1510160593496_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1510168880679_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601033': ['Kinect_1512057807777_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1512068815485_Video_flipped_detections_withTracks.pkl'],
+                         '03121601034': ['Kinect_1516897009358_Video_Flipped_detections_withTracks.pkl',
+                                         'Kinect_1516904509468_Video_Flipped_detections_withTracks.pkl'],
+                         '03121601035': ['Kinect_1522328709409_Video_flipped_detections_withTracks.pkl',
+                                         'Kinect_1522335428199_Video_flipped_detections_withTracks.pkl'],
+                         '03121601036': ['Kinect_1524143477281_Video_flipped_detections_withTracks.pkl',
+                                         'Kinect_1524156291481_Video_flipped_detections_withTracks.pkl']
+                         }
+###############################################################################################
+# reading detection and tracking results
+args = parse_args()
+file_name = all_det_track_results[args.subj_id][args.visit_no - 1]
+print(color.BOLD + color.YELLOW + 'processing output results for patient ID:{} saved in {} '.format(args.subj_id, file_name) + color.END)
+det_track_path = osp.join(args.base_path, args.subj_id, 'Visit_%02d' % args.visit_no, file_name)
+with open(det_track_path, 'rb') as res:
+    dets = pickle.load(res)
+all_boxes = dets['all_boxes'][1]  # bbox:[x0, y0, x1, y1, score]: w=x1-x0; h=y1-y0
+#cfg = dets['cfg']
+if 'all_keyps' in dets:
+    all_keyps = dets['all_keyps'][1]
+else:
+    all_keyps = None
+if 'all_tracks' in dets:
+    all_tracks = dets['all_tracks'][1]
+else:
+    all_tracks = None
+
+all_tracks_np = np.array(all_tracks)
+n_tracks = np.amax(all_tracks_np)[0] + 1
+n_frames = len(all_tracks)
+print(color.BOLD + color.YELLOW + 'There are {} individual tracks  in {} total number of frames'.format(n_tracks, n_frames) + color.END)
+##################################################################################################
+#  Extract all the tracklets in this format: [[[st0], [list of boxes]], [[st1], [list of boxes]], …..]
+#  Extract the highest confidence bounding box from each tracklet
+tracklet_list =[]
+id_list =[]
+th_box_conf = 0.94
+# it is not the optimized way to create the tracklet_list
+# TODO: change the search method to a more optimized scheme
+for i in range(n_tracks):
+    end_fr, st_fr, target_box = _get_target_tracklet(i , all_boxes, all_tracks, st_fr = None)
+    hconf_box_ind = np.argmax(np.array(target_box)[:, 4])
+    hconf_box = np.max(np.array(target_box)[:, 4])
+    key_pts = all_keyps[st_fr+hconf_box_ind][all_tracks[st_fr+hconf_box_ind].index(i)]
+    key_pts_conf = key_pts[2,:]
+    key_pts_num = sum(key_pts_conf > 2.3)
+    # pruning based on the detection confidence, number of key points and tracklet length
+    length = end_fr - st_fr
+    if hconf_box > th_box_conf and length > 8 and key_pts_num > 6:
+        tracklet_list.append([st_fr, i, hconf_box_ind, target_box])
+        id_list.append(i)
+print(color.BOLD + color.YELLOW + 'remaining list of IDs after pruning based on track length, number of keypoints in detection '
+      'and lowest confidence of {} is:\n{}'.format(th_box_conf, id_list) + color.END)
+#Create a data frame from the list: [[fr#, track_id, [bbox]]], [fr#, track_id, [bbox]], …]
+data_list =[]
+for info in tracklet_list:
+    #print(info)
+    st = info[0]
+    max_ind = info[2]
+    track_id =info[1]
+    fr_no = st + max_ind
+    data_list.append([fr_no, track_id, info[3][max_ind][0:4]])
+print(color.BOLD + color.YELLOW + '{} tracklets are remained after pruning'.format(len(data_list)) + color.END)
+#Create the new result list based on the prunning
+all_tracks_pruned = []
+all_boxes_pruned = []
+all_keyps_pruned = []
+for i in range(n_frames):
+    track_ids = all_tracks[i]
+    idx = 0
+    tracks_pruned = []
+    boxes_pruned = []
+    keyps_pruned = []
+    for j in track_ids:
+        if find_element_in_list(j, id_list) is not None:
+            tracks_pruned.append(j)
+            boxes_pruned.append(all_boxes[i][idx])
+            keyps_pruned.append(all_keyps[i][idx])
+        idx += 1
+    all_tracks_pruned.append(tracks_pruned)
+    all_boxes_pruned.append(boxes_pruned)
+    all_keyps_pruned.append(keyps_pruned)
+#print(len(all_keyps_pruned))
+#final step of pruning: removing the selected boxes which has more than 70% overlap with larger bboxes
+data_list_pruned = deepcopy(data_list)
+id_list_pruned = deepcopy(id_list)
+#print(id_list_pruned)
+for data in data_list:
+    fr_no = data[0]
+    track_id = data[1]
+    #print('track_id:{}'.format(track_id))
+    #print('frame number is:{}'.format(fr_no))
+    box = np.array(data[2])
+    #print(box)
+    boxes_i = all_boxes_pruned[fr_no]
+    tracks_i = all_tracks_pruned[fr_no]
+    indx = tracks_i.index(track_id)
+    n_boxes = len(boxes_i)
+    query_boxes = np.empty([n_boxes-1, 4])
+    boxes = np.expand_dims(box, axis=0)
+    box_area = boxes_area(boxes)
+    #print('box area is:{}'.format(box_area))
+    j = 0
+    for i in range(n_boxes):
+        candid_box = boxes_i[i][0:4]
+        candid_box_area = 0.8 * boxes_area(np.expand_dims(candid_box, axis=0))
+        if i != indx and (candid_box_area > box_area):
+            query_boxes[j, :] = boxes_i[i][0:4]
+            j +=1
+    #print('query_boxes are:{}'.format(query_boxes))
+    overlap = bbox_overlaps(boxes, query_boxes)[0]
+    # remove the track if there is another larger bbox with more than 70% overlap
+    #print('overlap is: {}'.format(overlap))
+    exist = len(overlap)
+    if exist and max(overlap)> 0.7:
+        print(color.BOLD + color.YELLOW + 'track id:{} is removed'.format(track_id) + color.END)
+        indx = id_list_pruned.index(track_id)
+        id_list_pruned.remove(track_id)
+        del data_list_pruned[indx]
+#update pruned result base on IOU pruning
+all_tracks_pruned = []
+all_boxes_pruned = []
+all_keyps_pruned = []
+for i in range(n_frames):
+    track_ids = all_tracks[i]
+    idx = 0
+    tracks_pruned = []
+    boxes_pruned = []
+    keyps_pruned = []
+    for j in track_ids:
+        if find_element_in_list(j, id_list_pruned) is not None:
+            tracks_pruned.append(j)
+            boxes_pruned.append(np.expand_dims(all_boxes[i][idx],axis=0))
+            keyps_pruned.append(all_keyps[i][idx])
+        idx += 1
+    all_tracks_pruned.append(tracks_pruned)
+    all_boxes_pruned.append(boxes_pruned)
+    all_keyps_pruned.append(keyps_pruned)
+###############################################################################################
+#Extract features from each bounding box
+#reading selected frames from the video and get the fixed size feature map
+#for each given bounding box inside the frame.
+vid_path = osp.join(args.base_path_vid, args.subj_id, 'Visit_%02d' % args.visit_no,'Kinect')
+# get the list of videos (.mp4) in the video path
+vid_name = [i for i in os.listdir(vid_path) if i.endswith('.mp4')][0]
+vid_obj = cv.VideoCapture(osp.join(vid_path, vid_name))
+visualize = False
+desired_size = (450, 150)  # (height, width)
+track_feature ={}
+for [frame_no, track_id, bbox] in data_list_pruned:
+    x0, y0, x1, y1 = bbox
+    x0 = int(x0)
+    y0 = int(y0)
+    x1 = int(x1)
+    y1 = int(y1)
+    vid_obj.set(1, frame_no)
+    ret, frame = vid_obj.read()
+    if ret:
+        # extracting the roi from the original image
+        #frame = frame[y0:y1, x0:x1, :]
+        old_size = frame.shape[:2]
+        #ratio = min(float(desired_size[0])/old_size[0], float(desired_size[1])/old_size[1])
+        #frame_resize = resize(frame, desired_size, order=1, mode='constant', cval=0, clip=True,
+                             #preserve_range=True).astype(frame.dtype)
+        feature_blob= feature.maskrcnn(frame, bboxs= bbox, scale=800, cfg_file=args.cfg_file, opts=args.opts)
+        feature_size = feature_blob.shape
+        #print(color.BOLD + color.YELLOW + "++++++original feature map size is:{}".format(feature_size) + color.END)
+        feature_vec = feature_blob.flatten()
+        print(color.BOLD + color.YELLOW + "++++++feature vector size is {}".format(feature_vec.shape) + color.END)
+        track_feature[track_id] = feature_vec
+        if visualize:
+            print("not yet implemented")
+            #TODO: visualize all of the feature maps related to the input image and show the bbox
+vid_obj.release()
+## save the extracted features as .pkl file in the output directory
+feat_path_base = '../outputs/TuftsVideos'
+feat_path = osp.join(feat_path_base, args.subj_id, 'Visit_%02d' % args.visit_no, 'feature_vector.pkl')
+robust_pickle_dump(track_feature, feat_path)
+#################################################################################################
+#Creating  Panda dataframe out of the feature dictionary and use them for clustering
+#track_df = pd.DataFrame(data=track_feature)
+#track_df = track_df.transpose()
+#print(color.BOLD + color.YELLOW + '++++++size of the dataframe: {}'.format(track_df.shape) + color.END)
+# read ground truth labels and three random images of target from ground truth folder and use them for clustering
+#true_id_path = osp.join(args.gt_path, args.subj_id, 'Visit_%02d' % args.visit_no)
+#true_id = {}
+#patient_list = [ i for i in os.listdir(osp.join(true_id_path, 'patient')) if i.endswith('.jpg')]
+#physician_list = [ i for i in os.listdir(osp.join(true_id_path, 'physician')) if i.endswith('.jpg')]
+#strange1_list = [ i for i in os.listdir(osp.join(true_id_path, 'strange1')) if i.endswith('.jpg')]
+#strange2_list = [ i for i in os.listdir(osp.join(true_id_path, 'strange2')) if i.endswith('.jpg')]
+#multiple_list = [ i for i in os.listdir(osp.join(true_id_path, 'multiple')) if i.endswith('.jpg')]
+#for name in patient_list:
+#    track_id = int(name[0:3])
+#    true_id[track_id] = 0
+#for name in physician_list:
+#    track_id = int(name[0:3])
+#    true_id[track_id] = 1
+#for name in strange1_list:
+#    track_id = int(name[0:3])
+#    true_id[track_id] = 2
+#for name in strange2_list:
+#    track_id = int(name[0:3])
+#    true_id[track_id] = 3
+#for name in multiple_list:
+#    track_id = int(name[0:3])
+#    true_id[track_id] = 4
+#true_id_list = [label for (track_id, label) in sorted(true_id.items(), reverse=False)
+#               if find_element_in_list(track_id, id_list_pruned) is not None ]
+#track_id_list = [track_id for (track_id, label) in sorted(true_id.items(), reverse=False)]
+# find the cosine distance between the ground truth and other images
+#n_clusters = max(true_id_list)+1
+#init = 'k-means++'
+#max_iter = 4000
+#kmeans = cluster.KMeans(n_clusters = n_clusters, init = init, max_iter = max_iter, verbose = 0 )
+#kmeans.fit(track_df)
+#clustered_labels = kmeans.labels_
+#print(color.BOLD + color.YELLOW + "clustered labels are: {}".format(clustered_labels) + color.END)
+#print(color.BOLD + color.YELLOW + "true labels are: {}".format(true_id_list) + color.END)

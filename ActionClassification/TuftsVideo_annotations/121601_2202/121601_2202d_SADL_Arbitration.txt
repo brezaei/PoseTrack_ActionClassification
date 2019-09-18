@@ -1,0 +1,4 @@
+SADL Timeline		56.266	00:00:56:06	98.466	00:01:38:13	42.2	00:00:42:04	Lab Coat
+SADL Activities		56.266	00:00:56:06	56.966	00:00:56:27	0.7	00:00:00:20	Lab Coat, Reach for Lab Coat, S
+SADL Activities		56.966	00:00:56:27	58.5	00:00:58:13	1.534	00:00:01:15	Lab Coat, Grabbing, S
+SADL Activities		58.5	00:00:58:13	98.466	00:01:38:13	39.966	00:00:39:27	Lab Coat, Donning, S
