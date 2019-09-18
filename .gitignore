@@ -89,3 +89,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# remove the latex folder of the paper
+/P_Rezaei_HumanBehaviorPhenotype_Sensors_2019
