@@ -1,6 +1,6 @@
 # Target Specific Action Classification using Pose Evolution Maps
 
-This repository contains the code for the action classification corresponding to the following paper:
+This repository contains the code for the action classification associated to the following paper:
 
 Rezaei, B., Christakis, Y., Ho, B., Thomas, K., Erb, K., Ostadabbas, S., Patel, S. (2019). Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video. under submission for a special issue on “Sensors, Signal and Image Processing in Biomedicine and Assisted Living” of Sensors journal.
 
@@ -56,6 +56,14 @@ https://github.com/facebookresearch/DetectAndTrack
 
 ## Citation
 If you are using this code please consider citing following paper:
+@misc{rezaei2019targetspecific,
+    title={Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video},
+    author={Behnaz Rezaei and Yiorgos Christakis and Bryan Ho and Kevin Thomas and Kelley Erb and Sarah Ostadabbas and Shyamal Patel},
+    year={2019},
+    eprint={1909.09566},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ....
 
 ## License
