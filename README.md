@@ -2,7 +2,7 @@
 
 This repository contains the code for the action classification associated to the following paper:
 
-Rezaei, B., Christakis, Y., Ho, B., Thomas, K., Erb, K., Ostadabbas, S., Patel, S. (2019). Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video. under submission for a special issue on “Sensors, Signal and Image Processing in Biomedicine and Assisted Living” of Sensors journal.
+Rezaei, B., Christakis, Y., Ho, B., Thomas, K., Erb, K., Ostadabbas, S., Patel, S. (2019). Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video. accepted for a special issue on “Sensors, Signal and Image Processing in Biomedicine and Assisted Living” of Sensors journal.
 
 This work was done during Behnaz internship at Pfizer.
 
