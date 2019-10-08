@@ -57,14 +57,15 @@ https://github.com/facebookresearch/DetectAndTrack
 ## Citation
 If you are using this code please consider citing following paper:
 ```
-@misc{rezaei2019targetspecific,
-    title={Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video},
-    author={Behnaz Rezaei and Yiorgos Christakis and Bryan Ho and Kevin Thomas and Kelley Erb and Sarah Ostadabbas and Shyamal Patel},
-    year={2019},
-    eprint={1909.09566},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
+@article{rezaei2019target,
+  title={Target-Specific Action Classification for Automated Assessment of Human Motor Behavior from Video},
+  author={Rezaei, Behnaz and Christakis, Yiorgos and Ho, Bryan and Thomas, Kevin and Erb, Kelley and Ostadabbas, Sarah and Patel, Shyamal},
+  journal={Sensors},
+  volume={19},
+  number={19},
+  pages={4266},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
 ```
 
 ## License
